@@ -44,6 +44,27 @@ python3 test_mcp_client.py
 
 **Nota:** Este script requiere el cliente MCP instalado y Python 3.10 o superior.
 
+### 4. `meta_analysis_mcp_models.py`
+Meta análisis completo de todos los modelos accesibles vía MCP y generación de reporte PDF.
+
+**Uso:**
+```bash
+cd prompts
+python3 meta_analysis_mcp_models.py
+```
+
+**Funcionalidades:**
+- Lista todos los modelos habilitados para MCP
+- Analiza campos, permisos y configuraciones de cada modelo
+- Genera un reporte PDF completo con toda la información
+- Incluye resumen ejecutivo y detalles por modelo
+
+**Salida:**
+- El reporte PDF se guarda en `../reports/mcp_models_analysis_YYYYMMDD_HHMMSS.pdf`
+
+**Dependencias:**
+- `reportlab` (se instala automáticamente si no está disponible)
+
 ## Configuración
 
 Todos los scripts utilizan las siguientes credenciales (configuradas en cada script):

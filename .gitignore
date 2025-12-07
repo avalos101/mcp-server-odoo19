@@ -89,3 +89,5 @@ Thumbs.db
 
 prompts/__pycache__/
 prompts/*.pyc
+reports/*.pdf
+reports/__pycache__/
