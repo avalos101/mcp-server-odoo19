@@ -70,7 +70,7 @@
         <field name="name">mcp.enabled.model.search</field>
         <field name="model">mcp.enabled.model</field>
         <field name="arch" type="xml">
-            <search string="Search MCP Models">
+            <search>
                 <field name="model_id" />
                 <field name="model_name" />
                 <filter string="Active" name="active" domain="[('active', '=', True)]" />
@@ -83,7 +83,7 @@
                     domain="[('allow_write', '=', True)]" />
                 <filter string="Allow Delete" name="allow_unlink"
                     domain="[('allow_unlink', '=', True)]" />
-                <group string="Group By">
+                <group>
                     <filter string="Model" name="group_by_model" context="{'group_by': 'model_id'}" />
                 </group>
             </search>
