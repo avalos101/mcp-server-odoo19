@@ -89,12 +89,22 @@ python3 meta_analysis_mcp_models.py
 
 ## Configuración
 
-Todos los scripts utilizan las siguientes credenciales (configuradas en cada script):
+Los scripts están configurados para diferentes servidores:
 
+### Servidor 1: admin.controltotal.cloud
 - **URL:** https://admin.app.controltotal.cloud
 - **Base de datos:** admin_saas
 - **Usuario:** admin@omnierp.app
 - **API Key:** 73c3c82596667e2251d374cd5051a3415012683f
+- **Scripts:** `test_mcp_simple.py`, `test_mcp_client.py`, `analyze_saas_plans.py`, `meta_analysis_mcp_models.py`
+
+### Servidor 2: laia.one
+- **URL:** https://laia.one
+- **Base de datos:** admin-laia
+- **Usuario:** admin@laia.one
+- **API Key:** cfebea4c6d0a3cc3e345db4aa9c94b3e085ea3e5
+- **Scripts:** `test_laia_server.py`
+- **Nota:** Este servidor requiere el header `X-Odoo-Database` en las peticiones XML-RPC (manejado automáticamente por el script)
 
 ## Estructura
 
