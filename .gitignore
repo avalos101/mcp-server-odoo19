@@ -87,3 +87,5 @@ Thumbs.db
 *~
 .DS_Store
 
+prompts/__pycache__/
+prompts/*.pyc
