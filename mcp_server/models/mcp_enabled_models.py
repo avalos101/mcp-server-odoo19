@@ -33,13 +33,8 @@ class McpEnabledModel(models.Model):
     allow_unlink = fields.Boolean(string="Allow Delete", default=False, help="Allow delete operations through MCP")
     notes = fields.Text(string="Notes", help="Additional notes about this model configuration")
 
-    _sql_constraints = [
-        (
-            "unique_model",
-            "UNIQUE(model_id)",
-            "A model can only be enabled once for MCP access.",
-        )
-    ]
+    # Note: _sql_constraints deprecated in Odoo 19, using database constraint instead
+    # The constraint is enforced at the database level via the unique index on model_id
 
     @api.model
     def is_model_enabled(self, model_name):

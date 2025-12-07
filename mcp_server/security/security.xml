@@ -5,8 +5,7 @@
         <record id="group_mcp_user" model="res.groups">
             <field name="name">MCP User</field>
             <field name="category_id" ref="base.module_category_hidden" />
-            <field name="comment">Users with access to MCP-enabled features but cannot configure MCP
-                settings</field>
+            <field name="comment">Users with access to MCP-enabled features but cannot configure MCP settings</field>
             <field name="implied_ids" eval="[(4, ref('base.group_user'))]" />
         </record>
 
