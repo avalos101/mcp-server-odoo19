@@ -4,7 +4,29 @@ Este directorio contiene todos los scripts de consultas y pruebas para el client
 
 ## Scripts Disponibles
 
-### 1. `test_mcp_simple.py`
+### 1. `test_laia_server.py`
+**Nuevo** - Script de prueba para el servidor MCP de Laia.one
+
+Este script prueba la conexión y realiza consultas al servidor MCP configurado en `https://laia.one`.
+
+**Configuración:**
+- URL: `https://laia.one`
+- Base de datos: `admin-laia`
+- Usuario: `admin@laia.one`
+- API Key: Configurada en el script
+
+**Características:**
+- Transport XML-RPC personalizado que envía el header `X-Odoo-Database` (necesario para servidores multi-database)
+- Pruebas de conexión y autenticación
+- Búsqueda y conteo de productos
+- Búsqueda y conteo de terceros (partners)
+
+**Uso:**
+```bash
+python3 prompts/test_laia_server.py
+```
+
+### 2. `test_mcp_simple.py`
 Script simple de prueba para el cliente MCP usando conexión directa XML-RPC.
 
 **Uso:**
