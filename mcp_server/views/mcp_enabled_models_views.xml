@@ -83,7 +83,7 @@
                     domain="[('allow_write', '=', True)]" />
                 <filter string="Allow Delete" name="allow_unlink"
                     domain="[('allow_unlink', '=', True)]" />
-                <group expand="0" string="Group By">
+                <group string="Group By">
                     <filter string="Model" name="group_by_model" context="{'group_by': 'model_id'}" />
                 </group>
             </search>
