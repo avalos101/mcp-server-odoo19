@@ -11,8 +11,8 @@ import os
 import sys
 from pathlib import Path
 
-# Agregar el directorio del cliente MCP al path
-mcp_client_path = Path(__file__).parent / "mcp-client"
+# Agregar el directorio del cliente MCP al path (está en el directorio padre)
+mcp_client_path = Path(__file__).parent.parent / "mcp-client"
 sys.path.insert(0, str(mcp_client_path))
 
 from mcp_server_odoo.config import OdooConfig, load_config
