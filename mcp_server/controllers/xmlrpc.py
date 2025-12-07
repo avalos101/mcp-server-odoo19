@@ -3,7 +3,12 @@ import xmlrpc.client as xmlrpclib
 from datetime import datetime
 
 from odoo import http
-from odoo.addons.base.controllers.rpc import dumps as odoo_dumps
+try:
+    # Odoo 19: rpc module
+    from odoo.addons.rpc.controllers.xmlrpc import dumps as odoo_dumps
+except ImportError:
+    # Fallback for Odoo 18
+    from odoo.addons.base.controllers.rpc import dumps as odoo_dumps
 from odoo.http import request
 from odoo.service import common as common_service_root, db as db_service_root, model as model_service_root
 
