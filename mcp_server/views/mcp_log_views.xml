@@ -72,7 +72,7 @@
                 <filter string="Today" name="today" domain="[('create_date', '&gt;=', datetime.datetime.now().strftime('%Y-%m-%d'))]"/>
                 <filter string="Errors" name="errors" domain="[('event_type', 'in', ['auth_failure', 'error', 'rate_limit', 'permission_denied'])]"/>
                 <filter string="Authentication" name="auth" domain="[('event_type', 'in', ['auth_success', 'auth_failure'])]"/>
-                <group expand="0" string="Group By">
+                <group>
                     <filter string="Event Type" name="group_event_type" context="{'group_by': 'event_type'}"/>
                     <filter string="User" name="group_user" context="{'group_by': 'user_id'}"/>
                     <filter string="Date" name="group_date" context="{'group_by': 'create_date:day'}"/>
