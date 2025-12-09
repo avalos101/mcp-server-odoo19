@@ -26,7 +26,18 @@ SOURCE_DATA = {
         "invoices": 36,
         "leads": 3213,
         "projects": 18,
-        "tasks": 317
+        "tasks": 317,
+        "knowledge_articles": 177,
+        "helpdesk_tickets": 219,
+        "helpdesk_teams": 1,
+        "helpdesk_stages": 4
+    },
+    "modules_special": {
+        "project": "18.0.1.3",
+        "knowledge": "18.0.1.0",
+        "helpdesk": "18.0.1.6",
+        "website_helpdesk": "18.0.1.0",
+        "website_helpdesk_knowledge": "18.0.1.0"
     }
 }
 
@@ -46,7 +57,11 @@ TARGET_DATA = {
         "invoices": 1,
         "leads": 0,
         "projects": 0,
-        "tasks": 0
+        "tasks": 1,
+        "knowledge_articles": 33,
+        "helpdesk_tickets": 0,
+        "helpdesk_teams": 1,
+        "helpdesk_stages": 0
     }
 }
 
@@ -100,6 +115,19 @@ def generate_detailed_plan():
         f.write("\n⚠️  IMPORTANTE: Se requiere verificar compatibilidad de todos los módulos con Odoo 19\n")
         f.write("   Algunos módulos de Odoo 18 pueden requerir actualización o no estar disponibles en Odoo 19\n\n")
         
+        f.write("MÓDULOS ESPECÍFICOS (Proyectos, Knowledge, Helpdesk)\n")
+        f.write("-"*80 + "\n")
+        if 'modules_special' in SOURCE_DATA:
+            f.write("Módulos instalados en origen:\n")
+            for mod_name, mod_version in SOURCE_DATA['modules_special'].items():
+                f.write(f"  - {mod_name}: versión {mod_version}\n")
+            f.write("\n⚠️  Verificar disponibilidad y compatibilidad de estos módulos en Odoo 19:\n")
+            f.write("   - project: Módulo base de proyectos\n")
+            f.write("   - knowledge: Base de conocimiento\n")
+            f.write("   - helpdesk: Sistema de tickets de soporte\n")
+            f.write("   - website_helpdesk: Portal web de helpdesk\n")
+            f.write("   - website_helpdesk_knowledge: Integración Knowledge-Helpdesk\n\n")
+        
         # Plan de migración detallado
         f.write("PLAN DE MIGRACIÓN DETALLADO\n")
         f.write("="*80 + "\n\n")
@@ -150,6 +178,11 @@ def generate_detailed_plan():
         f.write("   [ ] Instalar módulos de contabilidad (account)\n")
         f.write("   [ ] Instalar módulos de CRM (crm)\n")
         f.write("   [ ] Instalar módulos de proyectos (project)\n")
+        f.write("   [ ] Instalar módulos de Knowledge (knowledge)\n")
+        f.write("   [ ] Instalar módulos de Helpdesk (helpdesk)\n")
+        f.write("   [ ] Instalar módulos de Website Helpdesk (website_helpdesk)\n")
+        f.write("   [ ] Instalar módulos de Website Helpdesk Knowledge (website_helpdesk_knowledge)\n")
+        f.write("   [ ] Verificar compatibilidad de módulos con Odoo 19\n")
         f.write("   [ ] Instalar otros módulos necesarios según análisis\n")
         f.write("   [ ] Verificar que todos los módulos se instalaron correctamente\n\n")
         
@@ -179,7 +212,16 @@ def generate_detailed_plan():
         f.write("   [ ] Migrar tareas ({:,} registros)\n".format(SOURCE_DATA['data']['tasks']))
         f.write("   [ ] Migrar historial de comunicaciones\n\n")
         
-        f.write("3.4. Documentos y Adjuntos\n")
+        f.write("3.4. Datos de Knowledge y Helpdesk\n")
+        f.write("   [ ] Migrar artículos de Knowledge ({:,} registros)\n".format(SOURCE_DATA['data']['knowledge_articles']))
+        f.write("   [ ] Migrar estructura de Knowledge (categorías, etiquetas)\n")
+        f.write("   [ ] Migrar tickets de Helpdesk ({:,} registros)\n".format(SOURCE_DATA['data']['helpdesk_tickets']))
+        f.write("   [ ] Migrar equipos de Helpdesk ({:,} registros)\n".format(SOURCE_DATA['data']['helpdesk_teams']))
+        f.write("   [ ] Migrar etapas de Helpdesk ({:,} registros)\n".format(SOURCE_DATA['data']['helpdesk_stages']))
+        f.write("   [ ] Migrar historial de tickets y comunicaciones\n")
+        f.write("   [ ] Verificar integridad de relaciones Knowledge-Helpdesk\n\n")
+        
+        f.write("3.5. Documentos y Adjuntos\n")
         f.write("   [ ] Migrar documentos adjuntos\n")
         f.write("   [ ] Migrar mensajes y notas\n")
         f.write("   [ ] Verificar integridad de archivos\n\n")
@@ -215,6 +257,10 @@ def generate_detailed_plan():
         f.write("   [ ] Probar movimientos de inventario\n")
         f.write("   [ ] Probar funcionalidades de CRM\n")
         f.write("   [ ] Probar funcionalidades de proyectos\n")
+        f.write("   [ ] Probar funcionalidades de Knowledge (crear/editar artículos)\n")
+        f.write("   [ ] Probar funcionalidades de Helpdesk (crear tickets, asignar, cerrar)\n")
+        f.write("   [ ] Probar integración Knowledge-Helpdesk\n")
+        f.write("   [ ] Probar portal web de Helpdesk\n")
         f.write("   [ ] Probar reportes y vistas\n")
         f.write("   [ ] Probar acceso de usuarios\n\n")
         
