@@ -124,11 +124,20 @@ prompts/
 
 ## Agregar Nuevos Scripts
 
+**IMPORTANTE:** Todos los scripts de consultas y pruebas MCP DEBEN guardarse en este directorio `prompts/`.
+
 Al crear nuevos scripts de consulta:
 
-1. Guardarlos en este directorio `prompts/`
+1. **SIEMPRE guardarlos en este directorio `prompts/`** - NUNCA en el directorio raíz del proyecto
 2. Incluir el shebang `#!/usr/bin/env python3`
-3. Agregar documentación en el header del archivo
+3. Agregar documentación en el header del archivo indicando la ubicación: `Ubicado en: prompts/nombre_script.py`
 4. Actualizar este README con la descripción del nuevo script
 5. Usar las credenciales estándar o permitir configuración mediante variables de entorno
+6. Si el script genera reportes, guardarlos en `../reports/` (relativo a `prompts/`)
+
+### Estructura de Rutas en Scripts
+
+Cuando se crean scripts en `prompts/`, usar rutas relativas:
+- Para acceder a `reports/`: `Path(__file__).parent.parent / "reports"`
+- Para importar otros scripts: usar rutas relativas o importaciones absolutas desde `prompts`
 

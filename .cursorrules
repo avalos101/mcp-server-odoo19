@@ -1,0 +1,28 @@
+# Reglas para Cursor AI
+
+## Ubicación de Scripts de Consultas
+
+**IMPORTANTE:** Todos los scripts de consultas, pruebas y análisis MCP deben guardarse en el directorio `prompts/`.
+
+- ✅ CORRECTO: `prompts/nombre_script.py`
+- ❌ INCORRECTO: `./nombre_script.py` (directorio raíz)
+
+## Al crear nuevos scripts:
+
+1. **SIEMPRE** usar la ruta `prompts/nombre_script.py`
+2. Incluir en el header: `Ubicado en: prompts/nombre_script.py`
+3. Para reportes: usar `Path(__file__).parent.parent / "reports"` para acceder a `reports/`
+4. Actualizar `prompts/README.md` con la descripción del nuevo script
+
+## Estructura del Proyecto
+
+```
+proyecto/
+├── prompts/          # ← TODOS los scripts de consultas aquí
+│   ├── *.py          # Scripts de pruebas y análisis
+│   └── README.md     # Documentación de scripts
+├── reports/          # Reportes generados (PDFs, etc.)
+├── mcp_server/       # Módulo Odoo
+└── mcp-client/       # Cliente MCP
+```
+
