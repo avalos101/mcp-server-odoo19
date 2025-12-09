@@ -1,0 +1,6 @@
+[2025-12-09 10:40:01] [INFO] ======================================================================
+[2025-12-09 10:40:01] [INFO] MIGRACIÓN COMPLETA DE DATOS
+[2025-12-09 10:40:01] [INFO] ======================================================================
+[2025-12-09 10:40:02] [ERROR] Error MCP: 'DatabaseAwareTransport' object has no attribute 'verbose'
+[2025-12-09 10:40:03] [ERROR] Error MCP: HTTP Error 404: NOT FOUND
+[2025-12-09 10:40:03] [ERROR] No se pudo conectar a origen

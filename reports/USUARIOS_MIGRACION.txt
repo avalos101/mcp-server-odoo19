@@ -1,0 +1,86 @@
+================================================================================
+INFORMACIÓN SOBRE USUARIOS EN LA MIGRACIÓN
+================================================================================
+Fecha: 2025-12-09
+
+RESUMEN
+--------------------------------------------------------------------------------
+⚠ IMPORTANTE: Los usuarios NO fueron migrados automáticamente
+
+SERVIDOR ORIGEN (OmniERP - Odoo 18)
+--------------------------------------------------------------------------------
+Base de datos: omnierp.app
+Total usuarios: 856 usuarios
+Usuario administrador: admin@omnierp.app (ID: 2)
+
+SERVIDOR DESTINO (Laia.one - Odoo 19)
+--------------------------------------------------------------------------------
+Base de datos: omnierp_migrated
+Total usuarios: 4 usuarios (solo usuarios por defecto de Odoo)
+
+Usuarios disponibles en omnierp_migrated:
+  1. __system__ (inactivo) - Usuario del sistema
+  2. admin (activo) - Usuario administrador
+  3. public (inactivo) - Usuario público
+  4. portaltemplate (inactivo) - Plantilla para portal
+
+CÓMO ACCEDER A LA NUEVA BASE DE DATOS
+--------------------------------------------------------------------------------
+
+Opción 1: Usuario admin (recomendado)
+  - URL: https://laia.one
+  - Base de datos: omnierp_migrated
+  - Usuario: admin
+  - Contraseña: La contraseña que se configuró al inicializar la BD
+              (por defecto en Odoo es "admin" si no se cambió)
+
+Opción 2: Usar las credenciales de admin-laia
+  - URL: https://laia.one
+  - Base de datos: omnierp_migrated
+  - Usuario: admin@laia.one (si se configura igual)
+  - Contraseña: La misma que admin-laia
+
+NOTA: Si necesitas cambiar la contraseña del usuario admin:
+  - Puedes hacerlo desde la interfaz web de Odoo
+  - O usando el comando: odoo-bin -d omnierp_migrated --update=all --stop-after-init
+
+MIGRACIÓN DE USUARIOS
+--------------------------------------------------------------------------------
+
+Los usuarios NO fueron migrados porque:
+  1. La migración se enfocó en crear la estructura y módulos
+  2. Los usuarios requieren migración específica debido a:
+     - Contraseñas encriptadas (diferentes entre Odoo 18 y 19)
+     - Relaciones con partners
+     - Permisos y grupos de seguridad
+     - Preferencias de usuario
+
+Para migrar usuarios, se requiere:
+  1. Exportar usuarios desde OmniERP (sin contraseñas)
+  2. Crear usuarios en nueva BD con contraseñas temporales
+  3. Migrar partners asociados
+  4. Asignar grupos y permisos
+  5. Notificar a usuarios para que cambien contraseñas
+
+PRÓXIMOS PASOS PARA MIGRAR USUARIOS
+--------------------------------------------------------------------------------
+
+1. Identificar usuarios activos en OmniERP que deben migrarse
+2. Crear script de migración de usuarios que:
+   - Exporte usuarios desde origen (vía MCP o SQL)
+   - Cree usuarios en destino con contraseñas temporales
+   - Migre partners asociados
+   - Asigne grupos de seguridad correspondientes
+3. Notificar a usuarios sobre nueva contraseña temporal
+4. Configurar política de cambio de contraseña obligatorio
+
+ESTADO ACTUAL
+--------------------------------------------------------------------------------
+✓ Base de datos creada e inicializada
+✓ Módulos instalados
+✓ Usuario admin disponible para acceso inicial
+⚠ Usuarios de producción NO migrados
+⚠ Requiere migración manual o script específico
+
+================================================================================
+

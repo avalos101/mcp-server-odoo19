@@ -1,0 +1,788 @@
+[2025-12-09 11:34:29] [INFO] ======================================================================
+[2025-12-09 11:34:29] [INFO] MIGRACIÓN MEJORADA DE DATOS CON METADATOS
+[2025-12-09 11:34:29] [INFO] ======================================================================
+[2025-12-09 11:34:29] [INFO] Conectando a servidores...
+[2025-12-09 11:34:30] [INFO] ✓ Origen conectado
+[2025-12-09 11:34:31] [INFO] ✓ Conectado vía XML-RPC
+[2025-12-09 11:34:31] [INFO] ✓ Destino conectado
+[2025-12-09 11:34:31] [INFO] 
+======================================================================
+[2025-12-09 11:34:31] [INFO] PASO 1: MIGRAR USUARIOS (Para metadatos)
+[2025-12-09 11:34:31] [INFO] ======================================================================
+[2025-12-09 11:34:31] [INFO] 
+======================================================================
+[2025-12-09 11:34:31] [INFO] MIGRANDO: res.users (PRIORITARIO - Para metadatos)
+[2025-12-09 11:34:31] [INFO] ======================================================================
+[2025-12-09 11:34:31] [INFO] Total usuarios en origen: 844
+[2025-12-09 11:34:32] [INFO] Lote 1: 50 usuarios
+[2025-12-09 11:34:32] [ERROR] Error usuario foqipisecaz17@gmail.com: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:34:33] [ERROR] Error usuario lennigreene55@gmail.com: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:34:33] [ERROR] Error usuario xinolazi56@gmail.com: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:34:34] [ERROR] Error usuario linda_love1982@yahoo.com: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:34:34] [ERROR] Error usuario hupkekim958452@yahoo.com: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:34:57] [INFO]   Progreso: 0/844
+[2025-12-09 11:34:58] [INFO] Lote 2: 50 usuarios
+[2025-12-09 11:35:24] [INFO]   Progreso: 0/844
+[2025-12-09 11:35:24] [INFO] Lote 3: 50 usuarios
+[2025-12-09 11:35:50] [INFO]   Progreso: 0/844
+[2025-12-09 11:35:50] [INFO] Lote 4: 50 usuarios
+[2025-12-09 11:36:16] [INFO]   Progreso: 0/844
+[2025-12-09 11:36:16] [INFO] Lote 5: 50 usuarios
+[2025-12-09 11:36:41] [INFO]   Progreso: 0/844
+[2025-12-09 11:36:42] [INFO] Lote 6: 50 usuarios
+[2025-12-09 11:37:07] [INFO]   Progreso: 0/844
+[2025-12-09 11:37:08] [INFO] Lote 7: 50 usuarios
+[2025-12-09 11:37:33] [INFO]   Progreso: 0/844
+[2025-12-09 11:37:34] [INFO] Lote 8: 50 usuarios
+[2025-12-09 11:37:59] [INFO]   Progreso: 0/844
+[2025-12-09 11:38:00] [INFO] Lote 9: 50 usuarios
+[2025-12-09 11:38:26] [INFO]   Progreso: 0/844
+[2025-12-09 11:38:26] [INFO] Lote 10: 50 usuarios
+[2025-12-09 11:39:06] [INFO]   Progreso: 0/844
+[2025-12-09 11:39:06] [INFO] Lote 11: 50 usuarios
+[2025-12-09 11:40:23] [INFO]   Progreso: 0/844
+[2025-12-09 11:40:23] [INFO] Lote 12: 50 usuarios
+[2025-12-09 11:41:41] [INFO]   Progreso: 0/844
+[2025-12-09 11:41:42] [INFO] Lote 13: 50 usuarios
+[2025-12-09 11:42:58] [INFO]   Progreso: 0/844
+[2025-12-09 11:42:59] [INFO] Lote 14: 50 usuarios
+[2025-12-09 11:44:14] [INFO]   Progreso: 0/844
+[2025-12-09 11:44:15] [INFO] Lote 15: 50 usuarios
+[2025-12-09 11:45:29] [INFO]   Progreso: 0/844
+[2025-12-09 11:45:30] [INFO] Lote 16: 50 usuarios
+[2025-12-09 11:46:43] [INFO]   Progreso: 0/844
+[2025-12-09 11:46:44] [INFO] Lote 17: 44 usuarios
+[2025-12-09 11:47:52] [INFO]   Progreso: 0/844
+[2025-12-09 11:47:52] [INFO] ✓ Usuarios: 0 migrados, 844 errores
+[2025-12-09 11:47:52] [INFO] 
+======================================================================
+[2025-12-09 11:47:52] [INFO] PASO 2: MIGRAR DATOS
+[2025-12-09 11:47:52] [INFO] ======================================================================
+[2025-12-09 11:47:52] [INFO] 
+======================================================================
+[2025-12-09 11:47:52] [INFO] MIGRANDO: res.partner
+[2025-12-09 11:47:52] [INFO] ======================================================================
+[2025-12-09 11:47:52] [INFO] Total en origen: 7,619
+[2025-12-09 11:47:53] [INFO] Lote 1: 50 registros
+[2025-12-09 11:47:54] [ERROR] Error registro 34029: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:47:55] [ERROR] Error registro 34030: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:47:55] [ERROR] Error registro 1763: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:47:56] [ERROR] Error registro 1774: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:47:57] [ERROR] Error registro 54758: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:47:58] [ERROR] Error registro 54683: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:47:59] [ERROR] Error registro 1396: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:48:00] [ERROR] Error registro 2959: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:48:00] [ERROR] Error registro 54378: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:48:01] [ERROR] Error registro 54486: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py", line 162, in xmlrpc_2\n    response = self._xmlr
+[2025-12-09 11:48:32] [INFO]   Progreso: 0/7,619 (errores: 50)
+[2025-12-09 11:48:32] [INFO] Lote 2: 50 registros
+[2025-12-09 11:49:10] [INFO]   Progreso: 0/7,619 (errores: 100)
+[2025-12-09 11:49:10] [INFO] Lote 3: 50 registros
+[2025-12-09 11:49:11] [WARN] Demasiados errores (101), saltando modelo
+[2025-12-09 11:49:11] [INFO]   Progreso: 0/7,619 (errores: 101)
+[2025-12-09 11:49:12] [INFO] Lote 4: 50 registros
+[2025-12-09 11:49:12] [WARN] Demasiados errores (102), saltando modelo
+[2025-12-09 11:49:12] [INFO]   Progreso: 0/7,619 (errores: 102)
+[2025-12-09 11:49:13] [INFO] Lote 5: 50 registros
+[2025-12-09 11:49:14] [WARN] Demasiados errores (103), saltando modelo
+[2025-12-09 11:49:14] [INFO]   Progreso: 0/7,619 (errores: 103)
+[2025-12-09 11:49:15] [INFO] Lote 6: 50 registros
+[2025-12-09 11:49:15] [WARN] Demasiados errores (104), saltando modelo
+[2025-12-09 11:49:15] [INFO]   Progreso: 0/7,619 (errores: 104)
+[2025-12-09 11:49:15] [INFO] Lote 7: 50 registros
+[2025-12-09 11:49:16] [WARN] Demasiados errores (105), saltando modelo
+[2025-12-09 11:49:16] [INFO]   Progreso: 0/7,619 (errores: 105)
+[2025-12-09 11:49:16] [INFO] Lote 8: 50 registros
+[2025-12-09 11:49:17] [WARN] Demasiados errores (106), saltando modelo
+[2025-12-09 11:49:17] [INFO]   Progreso: 0/7,619 (errores: 106)
+[2025-12-09 11:49:17] [INFO] Lote 9: 50 registros
+[2025-12-09 11:49:18] [WARN] Demasiados errores (107), saltando modelo
+[2025-12-09 11:49:18] [INFO]   Progreso: 0/7,619 (errores: 107)
+[2025-12-09 11:49:19] [INFO] Lote 10: 50 registros
+[2025-12-09 11:49:20] [WARN] Demasiados errores (108), saltando modelo
+[2025-12-09 11:49:20] [INFO]   Progreso: 0/7,619 (errores: 108)
+[2025-12-09 11:49:20] [INFO] Lote 11: 50 registros
+[2025-12-09 11:49:21] [WARN] Demasiados errores (109), saltando modelo
+[2025-12-09 11:49:21] [INFO]   Progreso: 0/7,619 (errores: 109)
+[2025-12-09 11:49:22] [INFO] Lote 12: 50 registros
+[2025-12-09 11:49:23] [WARN] Demasiados errores (110), saltando modelo
+[2025-12-09 11:49:23] [INFO]   Progreso: 0/7,619 (errores: 110)
+[2025-12-09 11:49:23] [INFO] Lote 13: 50 registros
+[2025-12-09 11:49:23] [WARN] Demasiados errores (111), saltando modelo
+[2025-12-09 11:49:23] [INFO]   Progreso: 0/7,619 (errores: 111)
+[2025-12-09 11:49:24] [INFO] Lote 14: 50 registros
+[2025-12-09 11:49:25] [WARN] Demasiados errores (112), saltando modelo
+[2025-12-09 11:49:25] [INFO]   Progreso: 0/7,619 (errores: 112)
+[2025-12-09 11:49:26] [INFO] Lote 15: 50 registros
+[2025-12-09 11:49:26] [WARN] Demasiados errores (113), saltando modelo
+[2025-12-09 11:49:26] [INFO]   Progreso: 0/7,619 (errores: 113)
+[2025-12-09 11:49:27] [INFO] Lote 16: 50 registros
+[2025-12-09 11:49:28] [WARN] Demasiados errores (114), saltando modelo
+[2025-12-09 11:49:28] [INFO]   Progreso: 0/7,619 (errores: 114)
+[2025-12-09 11:49:29] [INFO] Lote 17: 50 registros
+[2025-12-09 11:49:29] [WARN] Demasiados errores (115), saltando modelo
+[2025-12-09 11:49:29] [INFO]   Progreso: 0/7,619 (errores: 115)
+[2025-12-09 11:49:30] [INFO] Lote 18: 50 registros
+[2025-12-09 11:49:31] [WARN] Demasiados errores (116), saltando modelo
+[2025-12-09 11:49:31] [INFO]   Progreso: 0/7,619 (errores: 116)
+[2025-12-09 11:49:32] [INFO] Lote 19: 50 registros
+[2025-12-09 11:49:32] [WARN] Demasiados errores (117), saltando modelo
+[2025-12-09 11:49:32] [INFO]   Progreso: 0/7,619 (errores: 117)
+[2025-12-09 11:49:33] [INFO] Lote 20: 50 registros
+[2025-12-09 11:49:34] [WARN] Demasiados errores (118), saltando modelo
+[2025-12-09 11:49:34] [INFO]   Progreso: 0/7,619 (errores: 118)
+[2025-12-09 11:49:35] [INFO] Lote 21: 50 registros
+[2025-12-09 11:49:35] [WARN] Demasiados errores (119), saltando modelo
+[2025-12-09 11:49:35] [INFO]   Progreso: 0/7,619 (errores: 119)
+[2025-12-09 11:49:36] [INFO] Lote 22: 50 registros
+[2025-12-09 11:49:37] [WARN] Demasiados errores (120), saltando modelo
+[2025-12-09 11:49:37] [INFO]   Progreso: 0/7,619 (errores: 120)
+[2025-12-09 11:49:37] [INFO] Lote 23: 50 registros
+[2025-12-09 11:49:38] [WARN] Demasiados errores (121), saltando modelo
+[2025-12-09 11:49:38] [INFO]   Progreso: 0/7,619 (errores: 121)
+[2025-12-09 11:49:38] [INFO] Lote 24: 50 registros
+[2025-12-09 11:49:39] [WARN] Demasiados errores (122), saltando modelo
+[2025-12-09 11:49:39] [INFO]   Progreso: 0/7,619 (errores: 122)
+[2025-12-09 11:49:40] [INFO] Lote 25: 50 registros
+[2025-12-09 11:49:41] [WARN] Demasiados errores (123), saltando modelo
+[2025-12-09 11:49:41] [INFO]   Progreso: 0/7,619 (errores: 123)
+[2025-12-09 11:49:41] [INFO] Lote 26: 50 registros
+[2025-12-09 11:49:42] [WARN] Demasiados errores (124), saltando modelo
+[2025-12-09 11:49:42] [INFO]   Progreso: 0/7,619 (errores: 124)
+[2025-12-09 11:49:43] [INFO] Lote 27: 50 registros
+[2025-12-09 11:49:44] [WARN] Demasiados errores (125), saltando modelo
+[2025-12-09 11:49:44] [INFO]   Progreso: 0/7,619 (errores: 125)
+[2025-12-09 11:49:44] [INFO] Lote 28: 50 registros
+[2025-12-09 11:49:45] [WARN] Demasiados errores (126), saltando modelo
+[2025-12-09 11:49:45] [INFO]   Progreso: 0/7,619 (errores: 126)
+[2025-12-09 11:49:46] [INFO] Lote 29: 50 registros
+[2025-12-09 11:49:47] [WARN] Demasiados errores (127), saltando modelo
+[2025-12-09 11:49:47] [INFO]   Progreso: 0/7,619 (errores: 127)
+[2025-12-09 11:49:47] [INFO] Lote 30: 50 registros
+[2025-12-09 11:49:48] [WARN] Demasiados errores (128), saltando modelo
+[2025-12-09 11:49:48] [INFO]   Progreso: 0/7,619 (errores: 128)
+[2025-12-09 11:49:48] [INFO] Lote 31: 50 registros
+[2025-12-09 11:49:49] [WARN] Demasiados errores (129), saltando modelo
+[2025-12-09 11:49:49] [INFO]   Progreso: 0/7,619 (errores: 129)
+[2025-12-09 11:49:50] [INFO] Lote 32: 50 registros
+[2025-12-09 11:49:51] [WARN] Demasiados errores (130), saltando modelo
+[2025-12-09 11:49:51] [INFO]   Progreso: 0/7,619 (errores: 130)
+[2025-12-09 11:49:51] [INFO] Lote 33: 50 registros
+[2025-12-09 11:49:51] [WARN] Demasiados errores (131), saltando modelo
+[2025-12-09 11:49:51] [INFO]   Progreso: 0/7,619 (errores: 131)
+[2025-12-09 11:49:52] [INFO] Lote 34: 50 registros
+[2025-12-09 11:49:53] [WARN] Demasiados errores (132), saltando modelo
+[2025-12-09 11:49:53] [INFO]   Progreso: 0/7,619 (errores: 132)
+[2025-12-09 11:49:54] [INFO] Lote 35: 50 registros
+[2025-12-09 11:49:54] [WARN] Demasiados errores (133), saltando modelo
+[2025-12-09 11:49:54] [INFO]   Progreso: 0/7,619 (errores: 133)
+[2025-12-09 11:49:55] [INFO] Lote 36: 50 registros
+[2025-12-09 11:49:56] [WARN] Demasiados errores (134), saltando modelo
+[2025-12-09 11:49:56] [INFO]   Progreso: 0/7,619 (errores: 134)
+[2025-12-09 11:49:57] [INFO] Lote 37: 50 registros
+[2025-12-09 11:49:57] [WARN] Demasiados errores (135), saltando modelo
+[2025-12-09 11:49:57] [INFO]   Progreso: 0/7,619 (errores: 135)
+[2025-12-09 11:49:58] [INFO] Lote 38: 50 registros
+[2025-12-09 11:49:59] [WARN] Demasiados errores (136), saltando modelo
+[2025-12-09 11:49:59] [INFO]   Progreso: 0/7,619 (errores: 136)
+[2025-12-09 11:50:00] [INFO] Lote 39: 50 registros
+[2025-12-09 11:50:00] [WARN] Demasiados errores (137), saltando modelo
+[2025-12-09 11:50:00] [INFO]   Progreso: 0/7,619 (errores: 137)
+[2025-12-09 11:50:01] [INFO] Lote 40: 50 registros
+[2025-12-09 11:50:02] [WARN] Demasiados errores (138), saltando modelo
+[2025-12-09 11:50:02] [INFO]   Progreso: 0/7,619 (errores: 138)
+[2025-12-09 11:50:03] [INFO] Lote 41: 50 registros
+[2025-12-09 11:50:03] [WARN] Demasiados errores (139), saltando modelo
+[2025-12-09 11:50:03] [INFO]   Progreso: 0/7,619 (errores: 139)
+[2025-12-09 11:50:03] [INFO] Lote 42: 50 registros
+[2025-12-09 11:50:04] [WARN] Demasiados errores (140), saltando modelo
+[2025-12-09 11:50:04] [INFO]   Progreso: 0/7,619 (errores: 140)
+[2025-12-09 11:50:05] [INFO] Lote 43: 50 registros
+[2025-12-09 11:50:06] [WARN] Demasiados errores (141), saltando modelo
+[2025-12-09 11:50:06] [INFO]   Progreso: 0/7,619 (errores: 141)
+[2025-12-09 11:50:06] [INFO] Lote 44: 50 registros
+[2025-12-09 11:50:07] [WARN] Demasiados errores (142), saltando modelo
+[2025-12-09 11:50:07] [INFO]   Progreso: 0/7,619 (errores: 142)
+[2025-12-09 11:50:08] [INFO] Lote 45: 50 registros
+[2025-12-09 11:50:09] [WARN] Demasiados errores (143), saltando modelo
+[2025-12-09 11:50:09] [INFO]   Progreso: 0/7,619 (errores: 143)
+[2025-12-09 11:50:09] [INFO] Lote 46: 50 registros
+[2025-12-09 11:50:10] [WARN] Demasiados errores (144), saltando modelo
+[2025-12-09 11:50:10] [INFO]   Progreso: 0/7,619 (errores: 144)
+[2025-12-09 11:50:11] [INFO] Lote 47: 50 registros
+[2025-12-09 11:50:12] [WARN] Demasiados errores (145), saltando modelo
+[2025-12-09 11:50:12] [INFO]   Progreso: 0/7,619 (errores: 145)
+[2025-12-09 11:50:12] [INFO] Lote 48: 50 registros
+[2025-12-09 11:50:13] [WARN] Demasiados errores (146), saltando modelo
+[2025-12-09 11:50:13] [INFO]   Progreso: 0/7,619 (errores: 146)
+[2025-12-09 11:50:14] [INFO] Lote 49: 50 registros
+[2025-12-09 11:50:15] [WARN] Demasiados errores (147), saltando modelo
+[2025-12-09 11:50:15] [INFO]   Progreso: 0/7,619 (errores: 147)
+[2025-12-09 11:50:15] [INFO] Lote 50: 50 registros
+[2025-12-09 11:50:16] [WARN] Demasiados errores (148), saltando modelo
+[2025-12-09 11:50:16] [INFO]   Progreso: 0/7,619 (errores: 148)
+[2025-12-09 11:50:17] [INFO] Lote 51: 50 registros
+[2025-12-09 11:50:17] [WARN] Demasiados errores (149), saltando modelo
+[2025-12-09 11:50:17] [INFO]   Progreso: 0/7,619 (errores: 149)
+[2025-12-09 11:50:18] [INFO] Lote 52: 50 registros
+[2025-12-09 11:50:19] [WARN] Demasiados errores (150), saltando modelo
+[2025-12-09 11:50:19] [INFO]   Progreso: 0/7,619 (errores: 150)
+[2025-12-09 11:50:19] [INFO] Lote 53: 50 registros
+[2025-12-09 11:50:20] [WARN] Demasiados errores (151), saltando modelo
+[2025-12-09 11:50:20] [INFO]   Progreso: 0/7,619 (errores: 151)
+[2025-12-09 11:50:21] [INFO] Lote 54: 50 registros
+[2025-12-09 11:50:22] [WARN] Demasiados errores (152), saltando modelo
+[2025-12-09 11:50:22] [INFO]   Progreso: 0/7,619 (errores: 152)
+[2025-12-09 11:50:22] [INFO] Lote 55: 50 registros
+[2025-12-09 11:50:23] [WARN] Demasiados errores (153), saltando modelo
+[2025-12-09 11:50:23] [INFO]   Progreso: 0/7,619 (errores: 153)
+[2025-12-09 11:50:24] [INFO] Lote 56: 50 registros
+[2025-12-09 11:50:25] [WARN] Demasiados errores (154), saltando modelo
+[2025-12-09 11:50:25] [INFO]   Progreso: 0/7,619 (errores: 154)
+[2025-12-09 11:50:25] [INFO] Lote 57: 50 registros
+[2025-12-09 11:50:26] [WARN] Demasiados errores (155), saltando modelo
+[2025-12-09 11:50:26] [INFO]   Progreso: 0/7,619 (errores: 155)
+[2025-12-09 11:50:27] [INFO] Lote 58: 50 registros
+[2025-12-09 11:50:28] [WARN] Demasiados errores (156), saltando modelo
+[2025-12-09 11:50:28] [INFO]   Progreso: 0/7,619 (errores: 156)
+[2025-12-09 11:50:28] [INFO] Lote 59: 50 registros
+[2025-12-09 11:50:29] [WARN] Demasiados errores (157), saltando modelo
+[2025-12-09 11:50:29] [INFO]   Progreso: 0/7,619 (errores: 157)
+[2025-12-09 11:50:30] [INFO] Lote 60: 50 registros
+[2025-12-09 11:50:31] [WARN] Demasiados errores (158), saltando modelo
+[2025-12-09 11:50:31] [INFO]   Progreso: 0/7,619 (errores: 158)
+[2025-12-09 11:50:31] [INFO] Lote 61: 50 registros
+[2025-12-09 11:50:32] [WARN] Demasiados errores (159), saltando modelo
+[2025-12-09 11:50:32] [INFO]   Progreso: 0/7,619 (errores: 159)
+[2025-12-09 11:50:33] [INFO] Lote 62: 50 registros
+[2025-12-09 11:50:34] [WARN] Demasiados errores (160), saltando modelo
+[2025-12-09 11:50:34] [INFO]   Progreso: 0/7,619 (errores: 160)
+[2025-12-09 11:50:34] [INFO] Lote 63: 50 registros
+[2025-12-09 11:50:35] [WARN] Demasiados errores (161), saltando modelo
+[2025-12-09 11:50:35] [INFO]   Progreso: 0/7,619 (errores: 161)
+[2025-12-09 11:50:36] [INFO] Lote 64: 50 registros
+[2025-12-09 11:50:37] [WARN] Demasiados errores (162), saltando modelo
+[2025-12-09 11:50:37] [INFO]   Progreso: 0/7,619 (errores: 162)
+[2025-12-09 11:50:37] [INFO] Lote 65: 50 registros
+[2025-12-09 11:50:38] [WARN] Demasiados errores (163), saltando modelo
+[2025-12-09 11:50:38] [INFO]   Progreso: 0/7,619 (errores: 163)
+[2025-12-09 11:50:39] [INFO] Lote 66: 50 registros
+[2025-12-09 11:50:40] [WARN] Demasiados errores (164), saltando modelo
+[2025-12-09 11:50:40] [INFO]   Progreso: 0/7,619 (errores: 164)
+[2025-12-09 11:50:40] [INFO] Lote 67: 50 registros
+[2025-12-09 11:50:40] [WARN] Demasiados errores (165), saltando modelo
+[2025-12-09 11:50:40] [INFO]   Progreso: 0/7,619 (errores: 165)
+[2025-12-09 11:50:41] [INFO] Lote 68: 50 registros
+[2025-12-09 11:50:42] [WARN] Demasiados errores (166), saltando modelo
+[2025-12-09 11:50:42] [INFO]   Progreso: 0/7,619 (errores: 166)
+[2025-12-09 11:50:43] [INFO] Lote 69: 50 registros
+[2025-12-09 11:50:43] [WARN] Demasiados errores (167), saltando modelo
+[2025-12-09 11:50:43] [INFO]   Progreso: 0/7,619 (errores: 167)
+[2025-12-09 11:50:44] [INFO] Lote 70: 50 registros
+[2025-12-09 11:50:45] [WARN] Demasiados errores (168), saltando modelo
+[2025-12-09 11:50:45] [INFO]   Progreso: 0/7,619 (errores: 168)
+[2025-12-09 11:50:46] [INFO] Lote 71: 50 registros
+[2025-12-09 11:50:47] [WARN] Demasiados errores (169), saltando modelo
+[2025-12-09 11:50:47] [INFO]   Progreso: 0/7,619 (errores: 169)
+[2025-12-09 11:50:47] [INFO] Lote 72: 50 registros
+[2025-12-09 11:50:47] [WARN] Demasiados errores (170), saltando modelo
+[2025-12-09 11:50:47] [INFO]   Progreso: 0/7,619 (errores: 170)
+[2025-12-09 11:50:48] [INFO] Lote 73: 50 registros
+[2025-12-09 11:50:49] [WARN] Demasiados errores (171), saltando modelo
+[2025-12-09 11:50:49] [INFO]   Progreso: 0/7,619 (errores: 171)
+[2025-12-09 11:50:50] [INFO] Lote 74: 50 registros
+[2025-12-09 11:50:51] [WARN] Demasiados errores (172), saltando modelo
+[2025-12-09 11:50:51] [INFO]   Progreso: 0/7,619 (errores: 172)
+[2025-12-09 11:50:51] [INFO] Lote 75: 50 registros
+[2025-12-09 11:50:52] [WARN] Demasiados errores (173), saltando modelo
+[2025-12-09 11:50:52] [INFO]   Progreso: 0/7,619 (errores: 173)
+[2025-12-09 11:50:53] [INFO] Lote 76: 50 registros
+[2025-12-09 11:50:53] [WARN] Demasiados errores (174), saltando modelo
+[2025-12-09 11:50:53] [INFO]   Progreso: 0/7,619 (errores: 174)
+[2025-12-09 11:50:54] [INFO] Lote 77: 50 registros
+[2025-12-09 11:50:55] [WARN] Demasiados errores (175), saltando modelo
+[2025-12-09 11:50:55] [INFO]   Progreso: 0/7,619 (errores: 175)
+[2025-12-09 11:50:55] [INFO] Lote 78: 50 registros
+[2025-12-09 11:50:56] [WARN] Demasiados errores (176), saltando modelo
+[2025-12-09 11:50:56] [INFO]   Progreso: 0/7,619 (errores: 176)
+[2025-12-09 11:50:57] [INFO] Lote 79: 50 registros
+[2025-12-09 11:50:57] [WARN] Demasiados errores (177), saltando modelo
+[2025-12-09 11:50:57] [INFO]   Progreso: 0/7,619 (errores: 177)
+[2025-12-09 11:50:58] [INFO] Lote 80: 50 registros
+[2025-12-09 11:50:59] [WARN] Demasiados errores (178), saltando modelo
+[2025-12-09 11:50:59] [INFO]   Progreso: 0/7,619 (errores: 178)
+[2025-12-09 11:51:00] [INFO] Lote 81: 50 registros
+[2025-12-09 11:51:00] [WARN] Demasiados errores (179), saltando modelo
+[2025-12-09 11:51:00] [INFO]   Progreso: 0/7,619 (errores: 179)
+[2025-12-09 11:51:01] [INFO] Lote 82: 50 registros
+[2025-12-09 11:51:02] [WARN] Demasiados errores (180), saltando modelo
+[2025-12-09 11:51:02] [INFO]   Progreso: 0/7,619 (errores: 180)
+[2025-12-09 11:51:03] [INFO] Lote 83: 50 registros
+[2025-12-09 11:51:03] [WARN] Demasiados errores (181), saltando modelo
+[2025-12-09 11:51:03] [INFO]   Progreso: 0/7,619 (errores: 181)
+[2025-12-09 11:51:04] [INFO] Lote 84: 50 registros
+[2025-12-09 11:51:05] [WARN] Demasiados errores (182), saltando modelo
+[2025-12-09 11:51:05] [INFO]   Progreso: 0/7,619 (errores: 182)
+[2025-12-09 11:51:05] [INFO] Lote 85: 50 registros
+[2025-12-09 11:51:06] [WARN] Demasiados errores (183), saltando modelo
+[2025-12-09 11:51:06] [INFO]   Progreso: 0/7,619 (errores: 183)
+[2025-12-09 11:51:07] [INFO] Lote 86: 50 registros
+[2025-12-09 11:51:08] [WARN] Demasiados errores (184), saltando modelo
+[2025-12-09 11:51:08] [INFO]   Progreso: 0/7,619 (errores: 184)
+[2025-12-09 11:51:08] [INFO] Lote 87: 50 registros
+[2025-12-09 11:51:09] [WARN] Demasiados errores (185), saltando modelo
+[2025-12-09 11:51:09] [INFO]   Progreso: 0/7,619 (errores: 185)
+[2025-12-09 11:51:10] [INFO] Lote 88: 50 registros
+[2025-12-09 11:51:11] [WARN] Demasiados errores (186), saltando modelo
+[2025-12-09 11:51:11] [INFO]   Progreso: 0/7,619 (errores: 186)
+[2025-12-09 11:51:11] [INFO] Lote 89: 50 registros
+[2025-12-09 11:51:12] [WARN] Demasiados errores (187), saltando modelo
+[2025-12-09 11:51:12] [INFO]   Progreso: 0/7,619 (errores: 187)
+[2025-12-09 11:51:12] [INFO] Lote 90: 50 registros
+[2025-12-09 11:51:13] [WARN] Demasiados errores (188), saltando modelo
+[2025-12-09 11:51:13] [INFO]   Progreso: 0/7,619 (errores: 188)
+[2025-12-09 11:51:14] [INFO] Lote 91: 50 registros
+[2025-12-09 11:51:15] [WARN] Demasiados errores (189), saltando modelo
+[2025-12-09 11:51:15] [INFO]   Progreso: 0/7,619 (errores: 189)
+[2025-12-09 11:51:15] [INFO] Lote 92: 50 registros
+[2025-12-09 11:51:16] [WARN] Demasiados errores (190), saltando modelo
+[2025-12-09 11:51:16] [INFO]   Progreso: 0/7,619 (errores: 190)
+[2025-12-09 11:51:17] [INFO] Lote 93: 50 registros
+[2025-12-09 11:51:18] [WARN] Demasiados errores (191), saltando modelo
+[2025-12-09 11:51:18] [INFO]   Progreso: 0/7,619 (errores: 191)
+[2025-12-09 11:51:18] [INFO] Lote 94: 50 registros
+[2025-12-09 11:51:19] [WARN] Demasiados errores (192), saltando modelo
+[2025-12-09 11:51:19] [INFO]   Progreso: 0/7,619 (errores: 192)
+[2025-12-09 11:51:20] [INFO] Lote 95: 50 registros
+[2025-12-09 11:51:21] [WARN] Demasiados errores (193), saltando modelo
+[2025-12-09 11:51:21] [INFO]   Progreso: 0/7,619 (errores: 193)
+[2025-12-09 11:51:21] [INFO] Lote 96: 50 registros
+[2025-12-09 11:51:22] [WARN] Demasiados errores (194), saltando modelo
+[2025-12-09 11:51:22] [INFO]   Progreso: 0/7,619 (errores: 194)
+[2025-12-09 11:51:23] [INFO] Lote 97: 50 registros
+[2025-12-09 11:51:24] [WARN] Demasiados errores (195), saltando modelo
+[2025-12-09 11:51:24] [INFO]   Progreso: 0/7,619 (errores: 195)
+[2025-12-09 11:51:24] [INFO] Lote 98: 50 registros
+[2025-12-09 11:51:25] [WARN] Demasiados errores (196), saltando modelo
+[2025-12-09 11:51:25] [INFO]   Progreso: 0/7,619 (errores: 196)
+[2025-12-09 11:51:26] [INFO] Lote 99: 50 registros
+[2025-12-09 11:51:27] [WARN] Demasiados errores (197), saltando modelo
+[2025-12-09 11:51:27] [INFO]   Progreso: 0/7,619 (errores: 197)
+[2025-12-09 11:51:27] [INFO] Lote 100: 50 registros
+[2025-12-09 11:51:28] [WARN] Demasiados errores (198), saltando modelo
+[2025-12-09 11:51:28] [INFO]   Progreso: 0/7,619 (errores: 198)
+[2025-12-09 11:51:29] [INFO] Lote 101: 50 registros
+[2025-12-09 11:51:30] [WARN] Demasiados errores (199), saltando modelo
+[2025-12-09 11:51:30] [INFO]   Progreso: 0/7,619 (errores: 199)
+[2025-12-09 11:51:30] [INFO] Lote 102: 50 registros
+[2025-12-09 11:51:31] [WARN] Demasiados errores (200), saltando modelo
+[2025-12-09 11:51:31] [INFO]   Progreso: 0/7,619 (errores: 200)
+[2025-12-09 11:51:32] [INFO] Lote 103: 50 registros
+[2025-12-09 11:51:33] [WARN] Demasiados errores (201), saltando modelo
+[2025-12-09 11:51:33] [INFO]   Progreso: 0/7,619 (errores: 201)
+[2025-12-09 11:51:33] [INFO] Lote 104: 50 registros
+[2025-12-09 11:51:34] [WARN] Demasiados errores (202), saltando modelo
+[2025-12-09 11:51:34] [INFO]   Progreso: 0/7,619 (errores: 202)
+[2025-12-09 11:51:35] [INFO] Lote 105: 50 registros
+[2025-12-09 11:51:36] [WARN] Demasiados errores (203), saltando modelo
+[2025-12-09 11:51:36] [INFO]   Progreso: 0/7,619 (errores: 203)
+[2025-12-09 11:51:36] [INFO] Lote 106: 50 registros
+[2025-12-09 11:51:37] [WARN] Demasiados errores (204), saltando modelo
+[2025-12-09 11:51:37] [INFO]   Progreso: 0/7,619 (errores: 204)
+[2025-12-09 11:51:38] [INFO] Lote 107: 50 registros
+[2025-12-09 11:51:39] [WARN] Demasiados errores (205), saltando modelo
+[2025-12-09 11:51:39] [INFO]   Progreso: 0/7,619 (errores: 205)
+[2025-12-09 11:51:39] [INFO] Lote 108: 50 registros
+[2025-12-09 11:51:40] [WARN] Demasiados errores (206), saltando modelo
+[2025-12-09 11:51:40] [INFO]   Progreso: 0/7,619 (errores: 206)
+[2025-12-09 11:51:41] [INFO] Lote 109: 50 registros
+[2025-12-09 11:51:42] [WARN] Demasiados errores (207), saltando modelo
+[2025-12-09 11:51:42] [INFO]   Progreso: 0/7,619 (errores: 207)
+[2025-12-09 11:51:42] [INFO] Lote 110: 50 registros
+[2025-12-09 11:51:43] [WARN] Demasiados errores (208), saltando modelo
+[2025-12-09 11:51:43] [INFO]   Progreso: 0/7,619 (errores: 208)
+[2025-12-09 11:51:43] [INFO] Lote 111: 50 registros
+[2025-12-09 11:51:44] [WARN] Demasiados errores (209), saltando modelo
+[2025-12-09 11:51:44] [INFO]   Progreso: 0/7,619 (errores: 209)
+[2025-12-09 11:51:44] [INFO] Lote 112: 50 registros
+[2025-12-09 11:51:45] [WARN] Demasiados errores (210), saltando modelo
+[2025-12-09 11:51:45] [INFO]   Progreso: 0/7,619 (errores: 210)
+[2025-12-09 11:51:45] [INFO] Lote 113: 50 registros
+[2025-12-09 11:51:45] [WARN] Demasiados errores (211), saltando modelo
+[2025-12-09 11:51:45] [INFO]   Progreso: 0/7,619 (errores: 211)
+[2025-12-09 11:51:46] [INFO] Lote 114: 50 registros
+[2025-12-09 11:51:46] [WARN] Demasiados errores (212), saltando modelo
+[2025-12-09 11:51:46] [INFO]   Progreso: 0/7,619 (errores: 212)
+[2025-12-09 11:51:47] [INFO] Lote 115: 50 registros
+[2025-12-09 11:51:47] [WARN] Demasiados errores (213), saltando modelo
+[2025-12-09 11:51:47] [INFO]   Progreso: 0/7,619 (errores: 213)
+[2025-12-09 11:51:48] [INFO] Lote 116: 50 registros
+[2025-12-09 11:51:48] [WARN] Demasiados errores (214), saltando modelo
+[2025-12-09 11:51:48] [INFO]   Progreso: 0/7,619 (errores: 214)
+[2025-12-09 11:51:49] [INFO] Lote 117: 50 registros
+[2025-12-09 11:51:49] [WARN] Demasiados errores (215), saltando modelo
+[2025-12-09 11:51:49] [INFO]   Progreso: 0/7,619 (errores: 215)
+[2025-12-09 11:51:50] [INFO] Lote 118: 50 registros
+[2025-12-09 11:51:50] [WARN] Demasiados errores (216), saltando modelo
+[2025-12-09 11:51:50] [INFO]   Progreso: 0/7,619 (errores: 216)
+[2025-12-09 11:51:51] [INFO] Lote 119: 50 registros
+[2025-12-09 11:51:51] [WARN] Demasiados errores (217), saltando modelo
+[2025-12-09 11:51:51] [INFO]   Progreso: 0/7,619 (errores: 217)
+[2025-12-09 11:51:52] [INFO] Lote 120: 50 registros
+[2025-12-09 11:51:52] [WARN] Demasiados errores (218), saltando modelo
+[2025-12-09 11:51:52] [INFO]   Progreso: 0/7,619 (errores: 218)
+[2025-12-09 11:51:53] [INFO] Lote 121: 50 registros
+[2025-12-09 11:51:53] [WARN] Demasiados errores (219), saltando modelo
+[2025-12-09 11:51:53] [INFO]   Progreso: 0/7,619 (errores: 219)
+[2025-12-09 11:51:54] [INFO] Lote 122: 50 registros
+[2025-12-09 11:51:54] [WARN] Demasiados errores (220), saltando modelo
+[2025-12-09 11:51:54] [INFO]   Progreso: 0/7,619 (errores: 220)
+[2025-12-09 11:51:55] [INFO] Lote 123: 50 registros
+[2025-12-09 11:51:55] [WARN] Demasiados errores (221), saltando modelo
+[2025-12-09 11:51:55] [INFO]   Progreso: 0/7,619 (errores: 221)
+[2025-12-09 11:51:56] [INFO] Lote 124: 50 registros
+[2025-12-09 11:51:56] [WARN] Demasiados errores (222), saltando modelo
+[2025-12-09 11:51:56] [INFO]   Progreso: 0/7,619 (errores: 222)
+[2025-12-09 11:51:57] [INFO] Lote 125: 50 registros
+[2025-12-09 11:51:57] [WARN] Demasiados errores (223), saltando modelo
+[2025-12-09 11:51:57] [INFO]   Progreso: 0/7,619 (errores: 223)
+[2025-12-09 11:51:58] [INFO] Lote 126: 50 registros
+[2025-12-09 11:51:58] [WARN] Demasiados errores (224), saltando modelo
+[2025-12-09 11:51:58] [INFO]   Progreso: 0/7,619 (errores: 224)
+[2025-12-09 11:51:59] [INFO] Lote 127: 50 registros
+[2025-12-09 11:51:59] [WARN] Demasiados errores (225), saltando modelo
+[2025-12-09 11:51:59] [INFO]   Progreso: 0/7,619 (errores: 225)
+[2025-12-09 11:52:00] [INFO] Lote 128: 50 registros
+[2025-12-09 11:52:00] [WARN] Demasiados errores (226), saltando modelo
+[2025-12-09 11:52:00] [INFO]   Progreso: 0/7,619 (errores: 226)
+[2025-12-09 11:52:01] [INFO] Lote 129: 50 registros
+[2025-12-09 11:52:01] [WARN] Demasiados errores (227), saltando modelo
+[2025-12-09 11:52:01] [INFO]   Progreso: 0/7,619 (errores: 227)
+[2025-12-09 11:52:02] [INFO] Lote 130: 50 registros
+[2025-12-09 11:52:02] [WARN] Demasiados errores (228), saltando modelo
+[2025-12-09 11:52:02] [INFO]   Progreso: 0/7,619 (errores: 228)
+[2025-12-09 11:52:03] [INFO] Lote 131: 50 registros
+[2025-12-09 11:52:03] [WARN] Demasiados errores (229), saltando modelo
+[2025-12-09 11:52:03] [INFO]   Progreso: 0/7,619 (errores: 229)
+[2025-12-09 11:52:04] [INFO] Lote 132: 50 registros
+[2025-12-09 11:52:04] [WARN] Demasiados errores (230), saltando modelo
+[2025-12-09 11:52:04] [INFO]   Progreso: 0/7,619 (errores: 230)
+[2025-12-09 11:52:04] [INFO] Lote 133: 50 registros
+[2025-12-09 11:52:05] [WARN] Demasiados errores (231), saltando modelo
+[2025-12-09 11:52:05] [INFO]   Progreso: 0/7,619 (errores: 231)
+[2025-12-09 11:52:05] [INFO] Lote 134: 50 registros
+[2025-12-09 11:52:06] [WARN] Demasiados errores (232), saltando modelo
+[2025-12-09 11:52:06] [INFO]   Progreso: 0/7,619 (errores: 232)
+[2025-12-09 11:52:06] [INFO] Lote 135: 50 registros
+[2025-12-09 11:52:07] [WARN] Demasiados errores (233), saltando modelo
+[2025-12-09 11:52:07] [INFO]   Progreso: 0/7,619 (errores: 233)
+[2025-12-09 11:52:07] [INFO] Lote 136: 50 registros
+[2025-12-09 11:52:08] [WARN] Demasiados errores (234), saltando modelo
+[2025-12-09 11:52:08] [INFO]   Progreso: 0/7,619 (errores: 234)
+[2025-12-09 11:52:08] [INFO] Lote 137: 50 registros
+[2025-12-09 11:52:08] [WARN] Demasiados errores (235), saltando modelo
+[2025-12-09 11:52:08] [INFO]   Progreso: 0/7,619 (errores: 235)
+[2025-12-09 11:52:09] [INFO] Lote 138: 50 registros
+[2025-12-09 11:52:09] [WARN] Demasiados errores (236), saltando modelo
+[2025-12-09 11:52:09] [INFO]   Progreso: 0/7,619 (errores: 236)
+[2025-12-09 11:52:10] [INFO] Lote 139: 50 registros
+[2025-12-09 11:52:10] [WARN] Demasiados errores (237), saltando modelo
+[2025-12-09 11:52:10] [INFO]   Progreso: 0/7,619 (errores: 237)
+[2025-12-09 11:52:11] [INFO] Lote 140: 50 registros
+[2025-12-09 11:52:11] [WARN] Demasiados errores (238), saltando modelo
+[2025-12-09 11:52:11] [INFO]   Progreso: 0/7,619 (errores: 238)
+[2025-12-09 11:52:12] [INFO] Lote 141: 50 registros
+[2025-12-09 11:52:12] [WARN] Demasiados errores (239), saltando modelo
+[2025-12-09 11:52:12] [INFO]   Progreso: 0/7,619 (errores: 239)
+[2025-12-09 11:52:13] [INFO] Lote 142: 50 registros
+[2025-12-09 11:52:13] [WARN] Demasiados errores (240), saltando modelo
+[2025-12-09 11:52:13] [INFO]   Progreso: 0/7,619 (errores: 240)
+[2025-12-09 11:52:14] [INFO] Lote 143: 50 registros
+[2025-12-09 11:52:14] [WARN] Demasiados errores (241), saltando modelo
+[2025-12-09 11:52:14] [INFO]   Progreso: 0/7,619 (errores: 241)
+[2025-12-09 11:52:15] [INFO] Lote 144: 50 registros
+[2025-12-09 11:52:15] [WARN] Demasiados errores (242), saltando modelo
+[2025-12-09 11:52:15] [INFO]   Progreso: 0/7,619 (errores: 242)
+[2025-12-09 11:52:16] [INFO] Lote 145: 50 registros
+[2025-12-09 11:52:16] [WARN] Demasiados errores (243), saltando modelo
+[2025-12-09 11:52:16] [INFO]   Progreso: 0/7,619 (errores: 243)
+[2025-12-09 11:52:17] [INFO] Lote 146: 50 registros
+[2025-12-09 11:52:17] [WARN] Demasiados errores (244), saltando modelo
+[2025-12-09 11:52:17] [INFO]   Progreso: 0/7,619 (errores: 244)
+[2025-12-09 11:52:17] [INFO] Lote 147: 50 registros
+[2025-12-09 11:52:18] [WARN] Demasiados errores (245), saltando modelo
+[2025-12-09 11:52:18] [INFO]   Progreso: 0/7,619 (errores: 245)
+[2025-12-09 11:52:18] [INFO] Lote 148: 50 registros
+[2025-12-09 11:52:19] [WARN] Demasiados errores (246), saltando modelo
+[2025-12-09 11:52:19] [INFO]   Progreso: 0/7,619 (errores: 246)
+[2025-12-09 11:52:19] [INFO] Lote 149: 50 registros
+[2025-12-09 11:52:20] [WARN] Demasiados errores (247), saltando modelo
+[2025-12-09 11:52:20] [INFO]   Progreso: 0/7,619 (errores: 247)
+[2025-12-09 11:52:20] [INFO] Lote 150: 50 registros
+[2025-12-09 11:52:21] [WARN] Demasiados errores (248), saltando modelo
+[2025-12-09 11:52:21] [INFO]   Progreso: 0/7,619 (errores: 248)
+[2025-12-09 11:52:21] [INFO] Lote 151: 50 registros
+[2025-12-09 11:52:21] [WARN] Demasiados errores (249), saltando modelo
+[2025-12-09 11:52:21] [INFO]   Progreso: 0/7,619 (errores: 249)
+[2025-12-09 11:52:22] [INFO] Lote 152: 50 registros
+[2025-12-09 11:52:22] [WARN] Demasiados errores (250), saltando modelo
+[2025-12-09 11:52:22] [INFO]   Progreso: 0/7,619 (errores: 250)
+[2025-12-09 11:52:23] [INFO] Lote 153: 19 registros
+[2025-12-09 11:52:23] [WARN] Demasiados errores (251), saltando modelo
+[2025-12-09 11:52:23] [INFO]   Progreso: 0/7,619 (errores: 251)
+[2025-12-09 11:52:23] [INFO] ✓ res.partner: 0 migrados, 251 errores
+[2025-12-09 11:52:24] [INFO] 
+======================================================================
+[2025-12-09 11:52:24] [INFO] MIGRANDO: product.template
+[2025-12-09 11:52:24] [INFO] ======================================================================
+[2025-12-09 11:52:25] [INFO] Total en origen: 789
+[2025-12-09 11:52:25] [INFO] Lote 1: 50 registros
+[2025-12-09 11:53:09] [INFO]   Progreso: 50/789 (errores: 0)
+[2025-12-09 11:53:10] [INFO] Lote 2: 50 registros
+[2025-12-09 11:53:54] [INFO]   Progreso: 100/789 (errores: 0)
+[2025-12-09 11:53:55] [INFO] Lote 3: 50 registros
+[2025-12-09 11:53:57] [ERROR] Error registro 8: <Fault 2: 'A combo product must contain at least 1 combo choice.'>
+[2025-12-09 11:53:59] [ERROR] Error registro 21: <Fault 2: 'A combo product must contain at least 1 combo choice.'>
+[2025-12-09 11:54:39] [INFO] Lote 4: 50 registros
+[2025-12-09 11:55:23] [INFO] Lote 5: 50 registros
+[2025-12-09 11:56:08] [INFO] Lote 6: 50 registros
+[2025-12-09 11:56:14] [ERROR] Error registro 3: <Fault 2: 'Record does not exist or has been deleted.\n(Record: product.category(6,), User: 2)'>
+[2025-12-09 11:56:53] [INFO] Lote 7: 50 registros
+[2025-12-09 11:57:38] [INFO] Lote 8: 50 registros
+[2025-12-09 11:58:22] [INFO] Lote 9: 50 registros
+[2025-12-09 11:59:07] [INFO] Lote 10: 50 registros
+[2025-12-09 11:59:53] [INFO] Lote 11: 50 registros
+[2025-12-09 12:00:36] [INFO] Lote 12: 50 registros
+[2025-12-09 12:01:22] [INFO] Lote 13: 50 registros
+[2025-12-09 12:02:06] [INFO] Lote 14: 50 registros
+[2025-12-09 12:02:53] [INFO] Lote 15: 50 registros
+[2025-12-09 12:03:36] [INFO] Lote 16: 39 registros
+[2025-12-09 12:04:11] [INFO] ✓ product.template: 786 migrados, 3 errores
+[2025-12-09 12:04:12] [INFO] 
+======================================================================
+[2025-12-09 12:04:12] [INFO] MIGRANDO: product.product
+[2025-12-09 12:04:12] [INFO] ======================================================================
+[2025-12-09 12:04:13] [INFO] Total en origen: 789
+[2025-12-09 12:04:13] [INFO] Lote 1: 50 registros
+[2025-12-09 12:04:13] [ERROR] Error registro 2857: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:14] [ERROR] Error registro 3738: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:15] [ERROR] Error registro 3740: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:16] [ERROR] Error registro 3739: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:17] [ERROR] Error registro 2875: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:18] [ERROR] Error registro 2869: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:19] [ERROR] Error registro 91: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:20] [ERROR] Error registro 1509: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:21] [ERROR] Error registro 1512: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:22] [ERROR] Error registro 1510: <Fault 2: 'The operation cannot be completed: duplicate key value violates unique constraint "product_product_combination_unique"\nDETAIL:  Key (produ
+[2025-12-09 12:04:55] [INFO] Lote 2: 50 registros
+[2025-12-09 12:05:37] [INFO] Lote 3: 50 registros
+[2025-12-09 12:05:38] [WARN] Demasiados errores (101), saltando modelo
+[2025-12-09 12:05:39] [INFO] Lote 4: 50 registros
+[2025-12-09 12:05:39] [WARN] Demasiados errores (102), saltando modelo
+[2025-12-09 12:05:40] [INFO] Lote 5: 50 registros
+[2025-12-09 12:05:40] [WARN] Demasiados errores (103), saltando modelo
+[2025-12-09 12:05:41] [INFO] Lote 6: 50 registros
+[2025-12-09 12:05:41] [WARN] Demasiados errores (104), saltando modelo
+[2025-12-09 12:05:42] [INFO] Lote 7: 50 registros
+[2025-12-09 12:05:42] [WARN] Demasiados errores (105), saltando modelo
+[2025-12-09 12:05:43] [INFO] Lote 8: 50 registros
+[2025-12-09 12:05:44] [WARN] Demasiados errores (106), saltando modelo
+[2025-12-09 12:05:44] [INFO] Lote 9: 50 registros
+[2025-12-09 12:05:45] [WARN] Demasiados errores (107), saltando modelo
+[2025-12-09 12:05:45] [INFO] Lote 10: 50 registros
+[2025-12-09 12:05:46] [WARN] Demasiados errores (108), saltando modelo
+[2025-12-09 12:05:46] [INFO] Lote 11: 50 registros
+[2025-12-09 12:05:47] [WARN] Demasiados errores (109), saltando modelo
+[2025-12-09 12:05:47] [INFO] Lote 12: 50 registros
+[2025-12-09 12:05:48] [WARN] Demasiados errores (110), saltando modelo
+[2025-12-09 12:05:48] [INFO] Lote 13: 50 registros
+[2025-12-09 12:05:49] [WARN] Demasiados errores (111), saltando modelo
+[2025-12-09 12:05:49] [INFO] Lote 14: 50 registros
+[2025-12-09 12:05:50] [WARN] Demasiados errores (112), saltando modelo
+[2025-12-09 12:05:50] [INFO] Lote 15: 50 registros
+[2025-12-09 12:05:51] [WARN] Demasiados errores (113), saltando modelo
+[2025-12-09 12:05:51] [INFO] Lote 16: 39 registros
+[2025-12-09 12:05:51] [WARN] Demasiados errores (114), saltando modelo
+[2025-12-09 12:05:52] [INFO] ✓ product.product: 1 migrados, 114 errores
+[2025-12-09 12:05:53] [INFO] 
+======================================================================
+[2025-12-09 12:05:53] [INFO] MIGRANDO: crm.lead
+[2025-12-09 12:05:53] [INFO] ======================================================================
+[2025-12-09 12:05:53] [INFO] Total en origen: 3,181
+[2025-12-09 12:05:53] [INFO] Lote 1: 50 registros
+[2025-12-09 12:06:01] [ERROR] Error en lote: [Errno 32] Broken pipe
+[2025-12-09 12:06:01] [INFO] ✓ crm.lead: 21 migrados, 1 errores
+[2025-12-09 12:06:02] [INFO] 
+======================================================================
+[2025-12-09 12:06:02] [INFO] MIGRANDO: sale.order
+[2025-12-09 12:06:02] [INFO] ======================================================================
+[2025-12-09 12:06:02] [INFO] Total en origen: 1,986
+[2025-12-09 12:06:03] [INFO] Lote 1: 50 registros
+[2025-12-09 12:06:03] [ERROR] Error registro 60136: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:03] [ERROR] Error registro 60140: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:03] [ERROR] Error registro 60139: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:04] [ERROR] Error registro 60138: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:04] [ERROR] Error registro 60137: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:04] [ERROR] Error registro 60135: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:05] [ERROR] Error registro 60134: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:05] [ERROR] Error registro 60133: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:05] [ERROR] Error registro 60132: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:05] [ERROR] Error registro 60131: <Fault 2: "The operation cannot be completed: Missing required value for the field 'Customer' (partner_id).\nModel: 'Sales Order' (sale.order)\n- crea
+[2025-12-09 12:06:17] [INFO]   Progreso: 0/1,986 (errores: 50)
+[2025-12-09 12:06:17] [INFO] Lote 2: 50 registros
+[2025-12-09 12:06:32] [INFO]   Progreso: 0/1,986 (errores: 100)
+[2025-12-09 12:06:32] [INFO] Lote 3: 50 registros
+[2025-12-09 12:06:33] [WARN] Demasiados errores (101), saltando modelo
+[2025-12-09 12:06:33] [INFO]   Progreso: 0/1,986 (errores: 101)
+[2025-12-09 12:06:33] [INFO] Lote 4: 50 registros
+[2025-12-09 12:06:34] [WARN] Demasiados errores (102), saltando modelo
+[2025-12-09 12:06:34] [INFO]   Progreso: 0/1,986 (errores: 102)
+[2025-12-09 12:06:34] [INFO] Lote 5: 50 registros
+[2025-12-09 12:06:35] [WARN] Demasiados errores (103), saltando modelo
+[2025-12-09 12:06:35] [INFO]   Progreso: 0/1,986 (errores: 103)
+[2025-12-09 12:06:35] [INFO] Lote 6: 50 registros
+[2025-12-09 12:06:35] [WARN] Demasiados errores (104), saltando modelo
+[2025-12-09 12:06:35] [INFO]   Progreso: 0/1,986 (errores: 104)
+[2025-12-09 12:06:36] [INFO] Lote 7: 50 registros
+[2025-12-09 12:06:36] [WARN] Demasiados errores (105), saltando modelo
+[2025-12-09 12:06:36] [INFO]   Progreso: 0/1,986 (errores: 105)
+[2025-12-09 12:06:37] [INFO] Lote 8: 50 registros
+[2025-12-09 12:06:37] [WARN] Demasiados errores (106), saltando modelo
+[2025-12-09 12:06:37] [INFO]   Progreso: 0/1,986 (errores: 106)
+[2025-12-09 12:06:38] [INFO] Lote 9: 50 registros
+[2025-12-09 12:06:38] [WARN] Demasiados errores (107), saltando modelo
+[2025-12-09 12:06:38] [INFO]   Progreso: 0/1,986 (errores: 107)
+[2025-12-09 12:06:39] [INFO] Lote 10: 50 registros
+[2025-12-09 12:06:39] [WARN] Demasiados errores (108), saltando modelo
+[2025-12-09 12:06:39] [INFO]   Progreso: 0/1,986 (errores: 108)
+[2025-12-09 12:06:40] [INFO] Lote 11: 50 registros
+[2025-12-09 12:06:40] [WARN] Demasiados errores (109), saltando modelo
+[2025-12-09 12:06:40] [INFO]   Progreso: 0/1,986 (errores: 109)
+[2025-12-09 12:06:41] [INFO] Lote 12: 50 registros
+[2025-12-09 12:06:41] [WARN] Demasiados errores (110), saltando modelo
+[2025-12-09 12:06:41] [INFO]   Progreso: 0/1,986 (errores: 110)
+[2025-12-09 12:06:42] [INFO] Lote 13: 50 registros
+[2025-12-09 12:06:42] [WARN] Demasiados errores (111), saltando modelo
+[2025-12-09 12:06:42] [INFO]   Progreso: 0/1,986 (errores: 111)
+[2025-12-09 12:06:43] [INFO] Lote 14: 50 registros
+[2025-12-09 12:06:43] [WARN] Demasiados errores (112), saltando modelo
+[2025-12-09 12:06:43] [INFO]   Progreso: 0/1,986 (errores: 112)
+[2025-12-09 12:06:44] [INFO] Lote 15: 50 registros
+[2025-12-09 12:06:44] [WARN] Demasiados errores (113), saltando modelo
+[2025-12-09 12:06:44] [INFO]   Progreso: 0/1,986 (errores: 113)
+[2025-12-09 12:06:45] [INFO] Lote 16: 50 registros
+[2025-12-09 12:06:45] [WARN] Demasiados errores (114), saltando modelo
+[2025-12-09 12:06:45] [INFO]   Progreso: 0/1,986 (errores: 114)
+[2025-12-09 12:06:45] [INFO] Lote 17: 50 registros
+[2025-12-09 12:06:46] [WARN] Demasiados errores (115), saltando modelo
+[2025-12-09 12:06:46] [INFO]   Progreso: 0/1,986 (errores: 115)
+[2025-12-09 12:06:46] [INFO] Lote 18: 50 registros
+[2025-12-09 12:06:47] [WARN] Demasiados errores (116), saltando modelo
+[2025-12-09 12:06:47] [INFO]   Progreso: 0/1,986 (errores: 116)
+[2025-12-09 12:06:47] [INFO] Lote 19: 50 registros
+[2025-12-09 12:06:48] [WARN] Demasiados errores (117), saltando modelo
+[2025-12-09 12:06:48] [INFO]   Progreso: 0/1,986 (errores: 117)
+[2025-12-09 12:06:48] [INFO] Lote 20: 50 registros
+[2025-12-09 12:06:48] [WARN] Demasiados errores (118), saltando modelo
+[2025-12-09 12:06:48] [INFO]   Progreso: 0/1,986 (errores: 118)
+[2025-12-09 12:06:49] [INFO] Lote 21: 50 registros
+[2025-12-09 12:06:49] [WARN] Demasiados errores (119), saltando modelo
+[2025-12-09 12:06:49] [INFO]   Progreso: 0/1,986 (errores: 119)
+[2025-12-09 12:06:50] [INFO] Lote 22: 50 registros
+[2025-12-09 12:06:50] [WARN] Demasiados errores (120), saltando modelo
+[2025-12-09 12:06:50] [INFO]   Progreso: 0/1,986 (errores: 120)
+[2025-12-09 12:06:51] [INFO] Lote 23: 50 registros
+[2025-12-09 12:06:51] [WARN] Demasiados errores (121), saltando modelo
+[2025-12-09 12:06:51] [INFO]   Progreso: 0/1,986 (errores: 121)
+[2025-12-09 12:06:52] [INFO] Lote 24: 50 registros
+[2025-12-09 12:06:52] [WARN] Demasiados errores (122), saltando modelo
+[2025-12-09 12:06:52] [INFO]   Progreso: 0/1,986 (errores: 122)
+[2025-12-09 12:06:53] [INFO] Lote 25: 50 registros
+[2025-12-09 12:06:53] [WARN] Demasiados errores (123), saltando modelo
+[2025-12-09 12:06:53] [INFO]   Progreso: 0/1,986 (errores: 123)
+[2025-12-09 12:06:54] [INFO] Lote 26: 50 registros
+[2025-12-09 12:06:54] [WARN] Demasiados errores (124), saltando modelo
+[2025-12-09 12:06:54] [INFO]   Progreso: 0/1,986 (errores: 124)
+[2025-12-09 12:06:55] [INFO] Lote 27: 50 registros
+[2025-12-09 12:06:55] [WARN] Demasiados errores (125), saltando modelo
+[2025-12-09 12:06:55] [INFO]   Progreso: 0/1,986 (errores: 125)
+[2025-12-09 12:06:56] [INFO] Lote 28: 50 registros
+[2025-12-09 12:06:56] [WARN] Demasiados errores (126), saltando modelo
+[2025-12-09 12:06:56] [INFO]   Progreso: 0/1,986 (errores: 126)
+[2025-12-09 12:06:57] [INFO] Lote 29: 50 registros
+[2025-12-09 12:06:57] [WARN] Demasiados errores (127), saltando modelo
+[2025-12-09 12:06:57] [INFO]   Progreso: 0/1,986 (errores: 127)
+[2025-12-09 12:06:58] [INFO] Lote 30: 50 registros
+[2025-12-09 12:06:58] [WARN] Demasiados errores (128), saltando modelo
+[2025-12-09 12:06:58] [INFO]   Progreso: 0/1,986 (errores: 128)
+[2025-12-09 12:06:58] [INFO] Lote 31: 50 registros
+[2025-12-09 12:06:59] [WARN] Demasiados errores (129), saltando modelo
+[2025-12-09 12:06:59] [INFO]   Progreso: 0/1,986 (errores: 129)
+[2025-12-09 12:06:59] [INFO] Lote 32: 50 registros
+[2025-12-09 12:07:00] [ERROR] Error en lote: [Errno 32] Broken pipe
+[2025-12-09 12:07:00] [INFO] ✓ sale.order: 0 migrados, 130 errores
+[2025-12-09 12:07:01] [INFO] 
+======================================================================
+[2025-12-09 12:07:01] [INFO] MIGRANDO: account.move
+[2025-12-09 12:07:01] [INFO] ======================================================================
+[2025-12-09 12:07:01] [INFO] Total en origen: 36
+[2025-12-09 12:07:01] [INFO] Lote 1: 36 registros
+[2025-12-09 12:07:02] [ERROR] Error registro 880: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:02] [ERROR] Error registro 879: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:02] [ERROR] Error registro 878: <Fault 2: 'No journal could be found in company My Company for any of those types: sale'>
+[2025-12-09 12:07:02] [ERROR] Error registro 877: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:03] [ERROR] Error registro 876: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:03] [ERROR] Error registro 875: <Fault 2: 'No journal could be found in company My Company for any of those types: sale'>
+[2025-12-09 12:07:03] [ERROR] Error registro 874: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:04] [ERROR] Error registro 873: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:04] [ERROR] Error registro 872: <Fault 2: 'You cannot create a move already in the posted state. Please create a draft move and post it after.'>
+[2025-12-09 12:07:04] [ERROR] Error registro 871: <Fault 2: 'No journal could be found in company My Company for any of those types: sale'>
+[2025-12-09 12:07:11] [INFO]   Progreso: 0/36 (errores: 36)
+[2025-12-09 12:07:11] [INFO] ✓ account.move: 0 migrados, 36 errores
+[2025-12-09 12:07:12] [INFO] 
+======================================================================
+[2025-12-09 12:07:12] [INFO] MIGRANDO: project.project
+[2025-12-09 12:07:12] [INFO] ======================================================================
+[2025-12-09 12:07:12] [INFO] Total en origen: 18
+[2025-12-09 12:07:13] [INFO] Lote 1: 18 registros
+[2025-12-09 12:07:19] [INFO] ✓ project.project: 18 migrados, 0 errores
+[2025-12-09 12:07:20] [INFO] 
+======================================================================
+[2025-12-09 12:07:20] [INFO] MIGRANDO: project.task
+[2025-12-09 12:07:20] [INFO] ======================================================================
+[2025-12-09 12:07:20] [INFO] Total en origen: 317
+[2025-12-09 12:07:20] [ERROR] Error en lote: <Fault 500: "Internal Server Error in MCPObjectController: Invalid field 'user_id' on model 'project.task'">
+[2025-12-09 12:07:20] [INFO] ✓ project.task: 0 migrados, 0 errores
+[2025-12-09 12:07:21] [INFO] 
+======================================================================
+[2025-12-09 12:07:21] [INFO] MIGRANDO: knowledge.article
+[2025-12-09 12:07:21] [INFO] ======================================================================
+[2025-12-09 12:07:22] [INFO] Total en origen: 176
+[2025-12-09 12:07:22] [INFO] Lote 1: 50 registros
+[2025-12-09 12:07:36] [INFO] Lote 2: 50 registros
+[2025-12-09 12:07:50] [INFO] Lote 3: 50 registros
+[2025-12-09 12:08:03] [INFO] Lote 4: 26 registros
+[2025-12-09 12:08:03] [INFO] ✓ knowledge.article: 140 migrados, 0 errores
+[2025-12-09 12:08:04] [INFO] 
+======================================================================
+[2025-12-09 12:08:04] [INFO] MIGRANDO: helpdesk.ticket
+[2025-12-09 12:08:04] [INFO] ======================================================================
+[2025-12-09 12:08:05] [INFO] Total en origen: 219
+[2025-12-09 12:08:05] [INFO] Lote 1: 50 registros
+[2025-12-09 12:08:20] [INFO]   Progreso: 50/219 (errores: 0)
+[2025-12-09 12:08:20] [INFO] Lote 2: 50 registros
+[2025-12-09 12:08:35] [INFO]   Progreso: 100/219 (errores: 0)
+[2025-12-09 12:08:36] [INFO] Lote 3: 50 registros
+[2025-12-09 12:08:51] [INFO]   Progreso: 150/219 (errores: 0)
+[2025-12-09 12:08:52] [INFO] Lote 4: 50 registros
+[2025-12-09 12:09:07] [INFO]   Progreso: 200/219 (errores: 0)
+[2025-12-09 12:09:07] [INFO] Lote 5: 19 registros
+[2025-12-09 12:09:13] [INFO] ✓ helpdesk.ticket: 219 migrados, 0 errores
+[2025-12-09 12:09:14] [INFO] 
+======================================================================
+[2025-12-09 12:09:14] [INFO] MIGRACIÓN COMPLETADA
+[2025-12-09 12:09:14] [INFO] ======================================================================
+[2025-12-09 12:09:14] [INFO] Duración: 34.7 minutos
+[2025-12-09 12:09:14] [INFO] Total migrado: 1,185
+[2025-12-09 12:09:14] [INFO] Total errores: 535
+[2025-12-09 12:09:14] [INFO] ✓ Estadísticas: /Users/diegoavalos/Documents/proyecto migracion mcp to odoov19/reports/migration_stats_20251209_120914.json

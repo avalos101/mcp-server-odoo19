@@ -1,0 +1,225 @@
+================================================================================
+PLAN DETALLADO DE MIGRACIÓN: OMNIIRP (Odoo 18) → ODOO 19
+================================================================================
+Fecha de generación: 2025-12-09 09:30:57
+
+RESUMEN EJECUTIVO
+--------------------------------------------------------------------------------
+Origen: OmniERP (Odoo 18.0)
+Destino: Laia.one (Odoo 19.0)
+Tamaño base de datos origen: 375 MB
+Total de registros a migrar: ~14,026
+Módulos instalados en origen: 314
+Módulos instalados en destino: 197
+Diferencia de módulos: 117
+
+ANÁLISIS DE DATOS A MIGRAR
+--------------------------------------------------------------------------------
+Modelo                         Registros Origen     Registros Destino    Diferencia     
+--------------------------------------------------------------------------------
+partners                       7,626                8                    7,618          
+products                       830                  15                   815            
+sales_orders                   1,986                0                    1,986          
+invoices                       36                   1                    35             
+leads                          3,213                0                    3,213          
+projects                       18                   0                    18             
+tasks                          317                  0                    317            
+
+Total de registros a migrar: 14,002
+
+ANÁLISIS DE MÓDULOS
+--------------------------------------------------------------------------------
+Módulos en origen: 314
+Módulos en destino: 197
+Módulos faltantes en destino: 117
+Módulos personalizados en origen: 0
+
+⚠️  IMPORTANTE: Se requiere verificar compatibilidad de todos los módulos con Odoo 19
+   Algunos módulos de Odoo 18 pueden requerir actualización o no estar disponibles en Odoo 19
+
+PLAN DE MIGRACIÓN DETALLADO
+================================================================================
+
+FASE 1: PREPARACIÓN Y ANÁLISIS
+--------------------------------------------------------------------------------
+1.1. Backup y Verificación
+   [ ] Crear backup completo de base de datos OmniERP
+   [ ] Verificar integridad del backup
+   [ ] Documentar tamaño exacto: ~375 MB
+   [ ] Verificar espacio disponible en servidor destino (mínimo 1 GB)
+   [ ] Crear punto de restauración en servidor destino
+
+1.2. Análisis de Módulos
+   [ ] Exportar lista completa de módulos instalados en origen
+   [ ] Verificar disponibilidad de cada módulo para Odoo 19
+   [ ] Identificar módulos que requieren actualización
+   [ ] Identificar módulos obsoletos o no compatibles
+   [ ] Crear lista de módulos a instalar en destino
+   [ ] Verificar dependencias entre módulos
+
+1.3. Análisis de Personalizaciones
+   [ ] Documentar vistas personalizadas
+   [ ] Documentar reportes personalizados
+   [ ] Documentar workflows y automatizaciones
+   [ ] Documentar campos personalizados
+   [ ] Documentar reglas de negocio personalizadas
+
+1.4. Preparación del Entorno Destino
+   [ ] Verificar que Odoo 19 está correctamente instalado
+   [ ] Crear nueva base de datos o limpiar base existente
+   [ ] Configurar parámetros de sistema
+   [ ] Preparar scripts de migración
+
+FASE 2: INSTALACIÓN DE MÓDULOS BASE
+--------------------------------------------------------------------------------
+2.1. Módulos Base
+   [ ] Instalar módulos base de Odoo 19
+   [ ] Configurar empresa y datos básicos
+   [ ] Configurar moneda, idioma, zona horaria
+
+2.2. Módulos Estándar
+   [ ] Instalar módulos de ventas (sale)
+   [ ] Instalar módulos de compras (purchase)
+   [ ] Instalar módulos de inventario (stock)
+   [ ] Instalar módulos de contabilidad (account)
+   [ ] Instalar módulos de CRM (crm)
+   [ ] Instalar módulos de proyectos (project)
+   [ ] Instalar otros módulos necesarios según análisis
+   [ ] Verificar que todos los módulos se instalaron correctamente
+
+FASE 3: MIGRACIÓN DE DATOS
+--------------------------------------------------------------------------------
+3.1. Datos Maestros (Orden crítico)
+   [ ] Migrar monedas y configuraciones financieras
+   [ ] Migrar unidades de medida
+   [ ] Migrar categorías de productos
+   [ ] Migrar productos (830 registros)
+   [ ] Migrar partners (7,626 registros)
+   [ ] Migrar usuarios y grupos
+   [ ] Migrar configuraciones de empresa
+
+3.2. Datos Transaccionales
+   [ ] Migrar órdenes de venta (1,986 registros)
+   [ ] Migrar facturas (36 registros)
+   [ ] Migrar líneas de factura
+   [ ] Migrar movimientos de inventario
+   [ ] Migrar pagos y transacciones bancarias
+
+3.3. Datos de CRM y Proyectos
+   [ ] Migrar leads (3,213 registros)
+   [ ] Migrar oportunidades
+   [ ] Migrar proyectos (18 registros)
+   [ ] Migrar tareas (317 registros)
+   [ ] Migrar historial de comunicaciones
+
+3.4. Documentos y Adjuntos
+   [ ] Migrar documentos adjuntos
+   [ ] Migrar mensajes y notas
+   [ ] Verificar integridad de archivos
+
+FASE 4: APLICACIÓN DE PERSONALIZACIONES
+--------------------------------------------------------------------------------
+4.1. Vistas y Reportes
+   [ ] Aplicar vistas personalizadas
+   [ ] Verificar compatibilidad con Odoo 19
+   [ ] Ajustar vistas que requieran cambios
+   [ ] Aplicar reportes personalizados
+   [ ] Probar generación de reportes
+
+4.2. Configuraciones
+   [ ] Aplicar configuraciones personalizadas
+   [ ] Configurar workflows
+   [ ] Configurar automatizaciones
+   [ ] Configurar reglas de negocio
+
+FASE 5: VERIFICACIÓN Y PRUEBAS
+--------------------------------------------------------------------------------
+5.1. Verificación de Integridad
+   [ ] Verificar conteo de registros por modelo
+   [ ] Verificar relaciones entre registros
+   [ ] Verificar integridad referencial
+   [ ] Verificar que no hay registros huérfanos
+
+5.2. Pruebas Funcionales
+   [ ] Probar creación de órdenes de venta
+   [ ] Probar generación de facturas
+   [ ] Probar movimientos de inventario
+   [ ] Probar funcionalidades de CRM
+   [ ] Probar funcionalidades de proyectos
+   [ ] Probar reportes y vistas
+   [ ] Probar acceso de usuarios
+
+5.3. Pruebas de Rendimiento
+   [ ] Verificar tiempos de carga
+   [ ] Verificar rendimiento de consultas
+   [ ] Optimizar índices si es necesario
+
+FASE 6: PUESTA EN PRODUCCIÓN
+--------------------------------------------------------------------------------
+6.1. Preparación Final
+   [ ] Configurar backups automáticos
+   [ ] Configurar monitoreo
+   [ ] Documentar cambios y configuraciones
+   [ ] Preparar documentación para usuarios
+
+6.2. Migración de Usuarios
+   [ ] Notificar a usuarios sobre la migración
+   [ ] Capacitar usuarios en nuevas funcionalidades
+   [ ] Proporcionar acceso a usuarios
+   [ ] Configurar permisos y grupos
+
+6.3. Go-Live
+   [ ] Ejecutar migración final
+   [ ] Verificar que todo funciona correctamente
+   [ ] Monitorear sistema durante primeras 24 horas
+   [ ] Resolver problemas inmediatos
+
+RIESGOS Y CONSIDERACIONES
+================================================================================
+1. Compatibilidad de Módulos
+   ⚠️  {SOURCE_DATA['total_modules'] - TARGET_DATA['total_modules']} módulos pueden no estar disponibles en Odoo 19
+   ⚠️  Algunos módulos pueden requerir actualización
+   ⚠️  Módulos personalizados pueden requerir reescritura
+
+2. Cambios en Odoo 19
+   ⚠️  Cambios en estructura de base de datos
+   ⚠️  Cambios en API y métodos
+   ⚠️  Cambios en vistas y reportes
+   ⚠️  Cambios en workflows y automatizaciones
+
+3. Volumen de Datos
+   ⚠️  14,002 registros a migrar requiere tiempo considerable
+   ⚠️  Posible downtime durante migración
+   ⚠️  Necesidad de validación exhaustiva
+
+4. Personalizaciones
+   ⚠️  Vistas personalizadas pueden requerir ajustes
+   ⚠️  Reportes personalizados pueden requerir actualización
+   ⚠️  Workflows pueden necesitar reconfiguración
+
+ESTIMACIONES DE TIEMPO
+================================================================================
+Fase 1 (Preparación): 4-8 horas
+Fase 2 (Instalación módulos): 2-4 horas
+Fase 3 (Migración datos): 4-8 horas
+Fase 4 (Personalizaciones): 2-4 horas
+Fase 5 (Verificación): 4-8 horas
+Fase 6 (Puesta en producción): 2-4 horas
+
+Tiempo total estimado: 18-36 horas
+Tiempo recomendado: 3-5 días (incluyendo pruebas y ajustes)
+
+RECOMENDACIONES
+================================================================================
+1. Realizar migración en horario de bajo tráfico
+2. Tener servidor de respaldo disponible
+3. Realizar pruebas exhaustivas antes de go-live
+4. Tener plan de rollback preparado
+5. Comunicar cambios a usuarios con anticipación
+6. Capacitar usuarios en nuevas funcionalidades
+7. Monitorear sistema durante primera semana
+8. Documentar todos los cambios y configuraciones
+
+================================================================================
+FIN DEL PLAN DE MIGRACIÓN
+================================================================================

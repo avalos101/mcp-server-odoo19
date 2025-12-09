@@ -1,0 +1,28 @@
+[2025-12-09 10:26:27] [INFO] ======================================================================
+[2025-12-09 10:26:27] [INFO] INICIANDO MIGRACIÓN AUTOMATIZADA
+[2025-12-09 10:26:27] [INFO] ======================================================================
+[2025-12-09 10:26:27] [INFO] Modo: DRY RUN
+[2025-12-09 10:26:27] [INFO] Origen: OmniERP (Origen - Odoo 18)
+[2025-12-09 10:26:27] [INFO] Destino: Laia.one (Destino - Odoo 19) -> omnierp_migrated
+[2025-12-09 10:26:27] [INFO] 
+[2025-12-09 10:26:27] [INFO] ======================================================================
+[2025-12-09 10:26:27] [INFO] PASO 1: Crear Base de Datos Nueva
+[2025-12-09 10:26:27] [INFO] ======================================================================
+[2025-12-09 10:26:27] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@laia.one sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -qw 'omnierp_migrated'
+[2025-12-09 10:26:27] [DRY_RUN] [DRY RUN] Comando SSH: sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -qw 'omnierp_migrated'
+[2025-12-09 10:26:27] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@laia.one sudo sudo -u postgres createdb -O odoo19 "omnierp_migrated"
+[2025-12-09 10:26:27] [DRY_RUN] [DRY RUN] Comando SSH: sudo sudo -u postgres createdb -O odoo19 "omnierp_migrated"
+[2025-12-09 10:26:27] [INFO] ✓ Base de datos omnierp_migrated creada exitosamente
+[2025-12-09 10:26:27] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@laia.one /opt/odoo19/venv/bin/python3 /opt/odoo19/odoo-bin -c /etc/odoo19.conf -d omnierp_migrated --init base --stop-after-init --without-demo=all
+[2025-12-09 10:26:27] [DRY_RUN] [DRY RUN] Comando SSH: /opt/odoo19/venv/bin/python3 /opt/odoo19/odoo-bin -c /etc/odoo19.conf -d omnierp_migrated --init base --stop-after-init --without-demo=all
+[2025-12-09 10:26:27] [INFO] ✓ Base de datos inicializada con módulos base
+[2025-12-09 10:26:27] [INFO] ======================================================================
+[2025-12-09 10:26:27] [INFO] PASO 2: Obtener Lista de Módulos desde Origen
+[2025-12-09 10:26:27] [INFO] ======================================================================
+[2025-12-09 10:26:28] [INFO] Obteniendo módulos instalados vía SSH...
+[2025-12-09 10:26:28] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@omnierp.app sudo sudo -u postgres psql -d 'omnierp.app' -c "SELECT name, state, latest_version FROM ir_module_module WHERE state='installed' ORDER BY name;" -t
+[2025-12-09 10:26:28] [DRY_RUN] [DRY RUN] Comando SSH: sudo sudo -u postgres psql -d 'omnierp.app' -c "SELECT name, state, latest_version FROM ir_module_module WHERE state='installed' ORDER BY name;" -t
+[2025-12-09 10:26:28] [INFO] ✓ Obtenidos 0 módulos instalados
+[2025-12-09 10:26:28] [INFO]   - Módulos base/enterprise: 0
+[2025-12-09 10:26:28] [INFO]   - Módulos personalizados: 0
+[2025-12-09 10:26:28] [ERROR] Error en paso 2. Abortando.

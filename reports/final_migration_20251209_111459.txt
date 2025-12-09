@@ -1,0 +1,88 @@
+[2025-12-09 11:14:59] [INFO] ======================================================================
+[2025-12-09 11:14:59] [INFO] MIGRACIÓN FINAL DE DATOS
+[2025-12-09 11:14:59] [INFO] ======================================================================
+[2025-12-09 11:14:59] [INFO] Conectando a origen...
+[2025-12-09 11:15:00] [INFO] ✓ Origen conectado
+[2025-12-09 11:15:00] [INFO] Conectando a destino...
+[2025-12-09 11:15:00] [INFO] ✓ Conectado vía XML-RPC con usuario admin
+[2025-12-09 11:15:00] [INFO] ✓ Destino conectado
+[2025-12-09 11:15:00] [INFO] 
+======================================================================
+[2025-12-09 11:15:00] [INFO] MIGRANDO: res.partner
+[2025-12-09 11:15:00] [INFO] ======================================================================
+[2025-12-09 11:15:01] [INFO] Total en origen: 7,619
+[2025-12-09 11:15:01] [INFO] Lote 1: 50 registros
+[2025-12-09 11:15:02] [ERROR] Error registro 34029: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:15:02] [ERROR] Error registro 34030: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:15:02] [ERROR] Error registro 1763: <Fault 1: 'Traceback (most recent call last):\n  File "/opt/odoo19/addons/rpc/controllers/xmlrpc.py"
+[2025-12-09 11:15:07] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:07] [INFO] Lote 2: 50 registros
+[2025-12-09 11:15:08] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:08] [INFO] Lote 3: 50 registros
+[2025-12-09 11:15:09] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:09] [INFO] Lote 4: 50 registros
+[2025-12-09 11:15:10] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:10] [INFO] Lote 5: 50 registros
+[2025-12-09 11:15:11] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:11] [INFO] Lote 6: 50 registros
+[2025-12-09 11:15:12] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:12] [INFO] Lote 7: 50 registros
+[2025-12-09 11:15:13] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:13] [INFO] Lote 8: 50 registros
+[2025-12-09 11:15:14] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:14] [INFO] Lote 9: 50 registros
+[2025-12-09 11:15:15] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:15] [INFO] Lote 10: 50 registros
+[2025-12-09 11:15:16] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:16] [INFO] Lote 11: 50 registros
+[2025-12-09 11:15:17] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:17] [INFO] Lote 12: 50 registros
+[2025-12-09 11:15:18] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:18] [INFO] Lote 13: 50 registros
+[2025-12-09 11:15:19] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:19] [INFO] Lote 14: 50 registros
+[2025-12-09 11:15:20] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:20] [INFO] Lote 15: 50 registros
+[2025-12-09 11:15:21] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:21] [INFO] Lote 16: 50 registros
+[2025-12-09 11:15:22] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:22] [INFO] Lote 17: 50 registros
+[2025-12-09 11:15:23] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:23] [INFO] Lote 18: 50 registros
+[2025-12-09 11:15:24] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:24] [INFO] Lote 19: 50 registros
+[2025-12-09 11:15:25] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:25] [INFO] Lote 20: 50 registros
+[2025-12-09 11:15:26] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:26] [INFO] Lote 21: 50 registros
+[2025-12-09 11:15:27] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:27] [INFO] Lote 22: 50 registros
+[2025-12-09 11:15:28] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:28] [INFO] Lote 23: 50 registros
+[2025-12-09 11:15:29] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:30] [INFO] Lote 24: 50 registros
+[2025-12-09 11:15:30] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:31] [INFO] Lote 25: 50 registros
+[2025-12-09 11:15:31] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:32] [INFO] Lote 26: 50 registros
+[2025-12-09 11:15:32] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:33] [INFO] Lote 27: 50 registros
+[2025-12-09 11:15:33] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:34] [INFO] Lote 28: 50 registros
+[2025-12-09 11:15:34] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:35] [INFO] Lote 29: 50 registros
+[2025-12-09 11:15:35] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:36] [INFO] Lote 30: 50 registros
+[2025-12-09 11:15:36] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:37] [INFO] Lote 31: 50 registros
+[2025-12-09 11:15:37] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:38] [INFO] Lote 32: 50 registros
+[2025-12-09 11:15:38] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:39] [INFO] Lote 33: 50 registros
+[2025-12-09 11:15:39] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:40] [INFO] Lote 34: 50 registros
+[2025-12-09 11:15:40] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:41] [INFO] Lote 35: 50 registros
+[2025-12-09 11:15:41] [INFO]   Progreso: 0/7,619
+[2025-12-09 11:15:42] [INFO] Lote 36: 50 registros
+[2025-12-09 11:15:42] [INFO]   Progreso: 0/7,619

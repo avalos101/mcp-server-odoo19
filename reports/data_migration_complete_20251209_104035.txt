@@ -1,0 +1,7 @@
+[2025-12-09 10:40:35] [INFO] ======================================================================
+[2025-12-09 10:40:35] [INFO] MIGRACIÓN COMPLETA DE DATOS
+[2025-12-09 10:40:35] [INFO] ======================================================================
+[2025-12-09 10:40:37] [ERROR] Error MCP: HTTP Error 404: NOT FOUND
+[2025-12-09 10:40:37] [WARN] No se pudo conectar a destino - verificando MCP...
+[2025-12-09 10:40:41] [ERROR] Error MCP: HTTP Error 404: NOT FOUND
+[2025-12-09 10:40:41] [ERROR] No se pudo conectar a destino después de habilitar MCP
