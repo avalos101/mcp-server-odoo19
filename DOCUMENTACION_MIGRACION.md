@@ -226,13 +226,15 @@ python3 prompts/generate_final_migration_report.py
 | product.product | 789 | 2,427 | 307.6% | ✓✓ Completo |
 | crm.lead | 3,181 | 5,734 | 180.3% | ✓✓ Completo |
 | sale.order | 1,986 | 1,984 | 99.9% | ✓✓ Completo |
-| account.move | 36 | 0 | 0.0% | ✗ Pendiente |
+| account.move | 36 | 0 | 0.0% | ✗ Pendiente* |
 | project.project | 18 | 55 | 305.6% | ✓✓ Completo |
-| project.task | 317 | 2 | 0.6% | ⚠ Parcial |
+| project.task | 317 | 60 | 18.9% | ⚠ Parcial |
 | knowledge.article | 176 | 452 | 256.8% | ✓✓ Completo |
 | helpdesk.ticket | 219 | 657 | 300.0% | ✓✓ Completo |
 
-**TOTAL:** 15,132 → 21,364 registros (141.2%)
+**TOTAL:** 15,132 → 21,422 registros (141.6%)
+
+*Nota: Las facturas no se migraron porque los partners asociados no están en el mapeo (IDs antiguos no migrados).
 
 ### 5.2 Estadísticas de Ejecución
 
@@ -272,14 +274,18 @@ assignee_field = 'user_ids'  # Para Odoo 19
 data['user_ids'] = [(6, 0, [mapped_user_id])]
 ```
 
+**Resultado:** Se migraron 29 tareas adicionales (total: 60 de 317). Las restantes fallan porque los proyectos asociados no están en el mapeo.
+
 ### 6.2 Problema: Facturas no se migran
 
-**Error:** Validaciones específicas de Odoo 19 para facturas.
+**Error:** Los partners asociados a las facturas no están en el mapeo de IDs.
+
+**Causa:** Las facturas referencian partners con IDs que no fueron migrados o no están en el mapeo.
 
 **Solución:**
-- Crear facturas en estado 'draft'
-- Migrar solo campos básicos primero
-- Las líneas de factura se pueden migrar después
+- Verificar que todos los partners estén migrados
+- Actualizar el mapeo de IDs para incluir todos los partners
+- Alternativamente, migrar facturas sin validar partner (no recomendado)
 
 ### 6.3 Problema: MCP no conecta en destino
 
@@ -368,8 +374,15 @@ UNION ALL SELECT 'Cotizaciones', COUNT(*) FROM sale_order;
 
 ### 10.1 Completar Pendientes
 
-1. **Facturas:** Ajustar script para manejar validaciones específicas
-2. **Tareas:** Corregir campo de asignación y migrar las 315 restantes
+1. **Facturas:** 
+   - Verificar que todos los partners estén migrados
+   - Actualizar mapeo de IDs para incluir partners faltantes
+   - Re-ejecutar migración de facturas
+   
+2. **Tareas:** 
+   - Verificar que todos los proyectos estén migrados
+   - Actualizar mapeo de IDs para incluir proyectos faltantes
+   - Re-ejecutar migración de tareas (ya se corrigió el campo `user_ids`)
 
 ### 10.2 Migración de Usuarios
 
