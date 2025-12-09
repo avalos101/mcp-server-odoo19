@@ -4,8 +4,30 @@ Este directorio contiene todos los scripts de consultas y pruebas para el client
 
 ## Scripts Disponibles
 
-### 1. `test_laia_server.py`
-**Nuevo** - Script de prueba para el servidor MCP de Laia.one
+### 1. `test_omnierp_server.py`
+**Nuevo** - Script de prueba para el servidor MCP de OmniERP
+
+Este script prueba la conexión y realiza consultas al servidor MCP configurado en `https://omnierp.app`.
+
+**Configuración:**
+- URL: `https://omnierp.app`
+- Base de datos: `omnierp.app`
+- Usuario: `admin@omnierp.app`
+- API Key: Configurada en el script
+
+**Características:**
+- Transport XML-RPC personalizado que envía el header `X-Odoo-Database` (necesario para servidores multi-database)
+- Pruebas de conexión y autenticación
+- Búsqueda y conteo de productos
+- Búsqueda y conteo de terceros (partners)
+
+**Uso:**
+```bash
+python3 prompts/test_omnierp_server.py
+```
+
+### 2. `test_laia_server.py`
+Script de prueba para el servidor MCP de Laia.one
 
 Este script prueba la conexión y realiza consultas al servidor MCP configurado en `https://laia.one`.
 
@@ -26,7 +48,7 @@ Este script prueba la conexión y realiza consultas al servidor MCP configurado 
 python3 prompts/test_laia_server.py
 ```
 
-### 2. `test_mcp_simple.py`
+### 3. `test_mcp_simple.py`
 Script simple de prueba para el cliente MCP usando conexión directa XML-RPC.
 
 **Uso:**
@@ -41,7 +63,7 @@ python3 test_mcp_simple.py
 - Búsqueda de terceros (partners)
 - Conteo de productos y terceros
 
-### 2. `analyze_saas_plans.py`
+### 4. `analyze_saas_plans.py`
 Análisis completo de SaaS Plans en la base de datos Odoo.
 
 **Uso:**
@@ -55,7 +77,7 @@ python3 analyze_saas_plans.py
 - Análisis de precios y categorización
 - Estadísticas y recomendaciones
 
-### 3. `test_mcp_client.py`
+### 5. `test_mcp_client.py`
 Script de prueba usando el cliente MCP oficial (requiere Python 3.10+).
 
 **Uso:**
@@ -66,7 +88,7 @@ python3 test_mcp_client.py
 
 **Nota:** Este script requiere el cliente MCP instalado y Python 3.10 o superior.
 
-### 4. `meta_analysis_mcp_models.py`
+### 6. `meta_analysis_mcp_models.py`
 Meta análisis completo de todos los modelos accesibles vía MCP y generación de reporte PDF.
 
 **Uso:**
@@ -105,6 +127,14 @@ Los scripts están configurados para diferentes servidores:
 - **API Key:** cfebea4c6d0a3cc3e345db4aa9c94b3e085ea3e5
 - **Scripts:** `test_laia_server.py`
 - **Nota:** Este servidor requiere el header `X-Odoo-Database` en las peticiones XML-RPC (manejado automáticamente por el script)
+
+### Servidor 3: omnierp (OmniERP)
+- **URL:** https://omnierp.app
+- **Base de datos:** omnierp.app
+- **Usuario:** admin@omnierp.app
+- **API Key:** 7f3ea49d0339de71e39996866b61c26416ba0597
+- **Scripts:** `test_omnierp_server.py`
+- **Nota:** Este servidor ya tiene MCP instalado (versión 18.0.1.0.2). Requiere el header `X-Odoo-Database` en las peticiones XML-RPC (manejado automáticamente por el script)
 
 ## Estructura
 
