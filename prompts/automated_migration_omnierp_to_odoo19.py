@@ -43,7 +43,7 @@ TARGET_SERVER = {
     "ssh_host": "laia.one",
     "ssh_user": "diego.avalos",
     "odoo_bin": "/opt/odoo19/venv/bin/python3 /opt/odoo19/odoo-bin",
-    "odoo_config": "/etc/odoo19.conf",
+    "odoo_config": "/etc/odoo19.conf",  # Verificar ruta real en servidor
     "odoo_user": "odoo19"
 }
 
@@ -209,7 +209,11 @@ class AutomatedMigration:
         try:
             ssh_cmd = ['ssh', '-o', 'StrictHostKeyChecking=no', f'{user}@{host}']
             if sudo:
-                full_cmd = f"sudo {command}"
+                # Si el comando ya tiene sudo, no duplicar
+                if command.strip().startswith('sudo'):
+                    full_cmd = command
+                else:
+                    full_cmd = f"sudo {command}"
             else:
                 full_cmd = command
             
