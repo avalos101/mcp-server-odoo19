@@ -1,0 +1,5 @@
+[2025-12-09 10:43:45] [INFO] ======================================================================
+[2025-12-09 10:43:45] [INFO] MIGRACIÓN COMPLETA DE DATOS
+[2025-12-09 10:43:45] [INFO] ======================================================================
+[2025-12-09 10:43:47] [WARN] No se pudo conectar a destino - verificando MCP...
+[2025-12-09 10:43:51] [ERROR] No se pudo conectar a destino después de habilitar MCP

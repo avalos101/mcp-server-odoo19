@@ -1,0 +1,24 @@
+[2025-12-09 10:26:44] [INFO] ======================================================================
+[2025-12-09 10:26:44] [INFO] PASO 1: Crear Base de Datos Nueva
+[2025-12-09 10:26:44] [INFO] ======================================================================
+[2025-12-09 10:26:44] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@laia.one sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -qw 'omnierp_migrated'
+[2025-12-09 10:26:45] [ERROR] Error SSH: perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("C.UTF-8").
+
+[2025-12-09 10:26:45] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@laia.one sudo -u postgres createdb -O odoo19 "omnierp_migrated"
+[2025-12-09 10:26:46] [INFO] ✓ Base de datos omnierp_migrated creada exitosamente
+[2025-12-09 10:26:46] [INFO] Ejecutando SSH: ssh -o StrictHostKeyChecking=no diego.avalos@laia.one /opt/odoo19/venv/bin/python3 /opt/odoo19/odoo-bin -c /etc/odoo19.conf -d omnierp_migrated --init base --stop-after-init --without-demo=all
+[2025-12-09 10:26:48] [ERROR] Error SSH: Usage: odoo-bin [--addons-path=PATH,...] server [options]
+
+odoo-bin [--addons-path=PATH,...] server: error: the config file '/etc/odoo19.conf' selected with -c/--config doesn't exist or is not readable, use -s/--save if you want to generate it
+
+[2025-12-09 10:26:48] [ERROR] Error inicializando base de datos: Usage: odoo-bin [--addons-path=PATH,...] server [options]
+
+odoo-bin [--addons-path=PATH,...] server: error: the config file '/etc/odoo19.conf' selected with -c/--config doesn't exist or is not readable, use -s/--save if you want to generate it
+

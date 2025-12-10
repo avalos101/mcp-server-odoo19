@@ -1,0 +1,360 @@
+[2025-12-09 18:13:01] [INFO] ======================================================================
+[2025-12-09 18:13:01] [INFO] MIGRACIÓN DE DATOS PENDIENTES
+[2025-12-09 18:13:01] [INFO] ======================================================================
+[2025-12-09 18:13:01] [INFO] ✓ Mapeos cargados desde migration_stats_20251209_145454.json
+[2025-12-09 18:13:01] [INFO] Conectando a servidores...
+[2025-12-09 18:13:02] [INFO] ✓ Origen conectado
+[2025-12-09 18:13:03] [INFO] ✓ Destino conectado
+[2025-12-09 18:13:03] [INFO] 
+======================================================================
+[2025-12-09 18:13:03] [INFO] MIGRANDO: account.move (Facturas)
+[2025-12-09 18:13:03] [INFO] ======================================================================
+[2025-12-09 18:13:03] [INFO] Total facturas en origen: 36
+[2025-12-09 18:13:04] [INFO] Lote 1: 10 facturas
+[2025-12-09 18:13:04] [WARN]   Partner 40343 no mapeado, saltando factura 880
+[2025-12-09 18:13:04] [WARN]   Partner 1437 no mapeado, saltando factura 879
+[2025-12-09 18:13:04] [WARN]   Partner 1437 no mapeado, saltando factura 878
+[2025-12-09 18:13:04] [WARN]   Partner 54599 no mapeado, saltando factura 877
+[2025-12-09 18:13:04] [WARN]   Partner 54600 no mapeado, saltando factura 876
+[2025-12-09 18:13:04] [WARN]   Partner 54600 no mapeado, saltando factura 875
+[2025-12-09 18:13:04] [WARN]   Partner 39959 no mapeado, saltando factura 874
+[2025-12-09 18:13:04] [WARN]   Partner 39959 no mapeado, saltando factura 873
+[2025-12-09 18:13:04] [WARN]   Partner 128 no mapeado, saltando factura 872
+[2025-12-09 18:13:05] [INFO] Lote 2: 10 facturas
+[2025-12-09 18:13:05] [WARN]   Partner 128 no mapeado, saltando factura 29
+[2025-12-09 18:13:05] [WARN]   Partner 1600 no mapeado, saltando factura 28
+[2025-12-09 18:13:05] [WARN]   Partner 1600 no mapeado, saltando factura 27
+[2025-12-09 18:13:05] [WARN]   Partner 1507 no mapeado, saltando factura 26
+[2025-12-09 18:13:05] [WARN]   Partner 1437 no mapeado, saltando factura 25
+[2025-12-09 18:13:05] [WARN]   Partner 1437 no mapeado, saltando factura 24
+[2025-12-09 18:13:05] [WARN]   Partner 1437 no mapeado, saltando factura 23
+[2025-12-09 18:13:05] [WARN]   Partner 622 no mapeado, saltando factura 19
+[2025-12-09 18:13:05] [WARN]   Partner 128 no mapeado, saltando factura 18
+[2025-12-09 18:13:05] [WARN]   Partner 128 no mapeado, saltando factura 17
+[2025-12-09 18:13:06] [INFO] Lote 3: 10 facturas
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 16
+[2025-12-09 18:13:06] [WARN]   Partner 722 no mapeado, saltando factura 15
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 14
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 12
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 11
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 10
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 6
+[2025-12-09 18:13:06] [WARN]   Partner 128 no mapeado, saltando factura 2
+[2025-12-09 18:13:06] [WARN]   Partner 129 no mapeado, saltando factura 9
+[2025-12-09 18:13:06] [WARN]   Partner 128 no mapeado, saltando factura 1
+[2025-12-09 18:13:07] [INFO] Lote 4: 6 facturas
+[2025-12-09 18:13:07] [WARN]   Partner 129 no mapeado, saltando factura 7
+[2025-12-09 18:13:07] [WARN]   Partner 129 no mapeado, saltando factura 3
+[2025-12-09 18:13:07] [WARN]   Partner 129 no mapeado, saltando factura 13
+[2025-12-09 18:13:07] [WARN]   Partner 129 no mapeado, saltando factura 8
+[2025-12-09 18:13:07] [WARN]   Partner 129 no mapeado, saltando factura 5
+[2025-12-09 18:13:07] [WARN]   Partner 129 no mapeado, saltando factura 4
+[2025-12-09 18:13:07] [INFO] ✓ Facturas: 0 migradas, 36 errores
+[2025-12-09 18:13:09] [INFO] 
+======================================================================
+[2025-12-09 18:13:09] [INFO] MIGRANDO: project.task (Tareas) - CON CORRECCIÓN
+[2025-12-09 18:13:09] [INFO] ======================================================================
+[2025-12-09 18:13:10] [INFO] Total tareas en origen: 317
+[2025-12-09 18:13:10] [INFO] Campo de asignación encontrado: user_ids
+[2025-12-09 18:13:11] [INFO] Lote 1: 50 tareas
+[2025-12-09 18:13:11] [WARN]   Proyecto 17 no mapeado, saltando tarea 278
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 325
+[2025-12-09 18:13:11] [WARN]   Proyecto 17 no mapeado, saltando tarea 302
+[2025-12-09 18:13:11] [WARN]   Proyecto 6 no mapeado, saltando tarea 65
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 327
+[2025-12-09 18:13:11] [WARN]   Proyecto 17 no mapeado, saltando tarea 281
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 303
+[2025-12-09 18:13:11] [WARN]   Proyecto 17 no mapeado, saltando tarea 279
+[2025-12-09 18:13:11] [WARN]   Proyecto 6 no mapeado, saltando tarea 81
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 322
+[2025-12-09 18:13:11] [WARN]   Proyecto 17 no mapeado, saltando tarea 280
+[2025-12-09 18:13:11] [WARN]   Proyecto 6 no mapeado, saltando tarea 67
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 323
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 307
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 304
+[2025-12-09 18:13:11] [WARN]   Proyecto 14 no mapeado, saltando tarea 159
+[2025-12-09 18:13:11] [WARN]   Proyecto 18 no mapeado, saltando tarea 329
+[2025-12-09 18:13:12] [WARN]   Proyecto 6 no mapeado, saltando tarea 155
+[2025-12-09 18:13:13] [WARN]   Proyecto 17 no mapeado, saltando tarea 282
+[2025-12-09 18:13:13] [WARN]   Proyecto 6 no mapeado, saltando tarea 61
+[2025-12-09 18:13:13] [WARN]   Proyecto 11 no mapeado, saltando tarea 86
+[2025-12-09 18:13:13] [WARN]   Proyecto 18 no mapeado, saltando tarea 328
+[2025-12-09 18:13:13] [WARN]   Proyecto 18 no mapeado, saltando tarea 326
+[2025-12-09 18:13:13] [WARN]   Proyecto 18 no mapeado, saltando tarea 320
+[2025-12-09 18:13:13] [WARN]   Proyecto 18 no mapeado, saltando tarea 316
+[2025-12-09 18:13:13] [WARN]   Proyecto 17 no mapeado, saltando tarea 283
+[2025-12-09 18:13:13] [WARN]   Proyecto 16 no mapeado, saltando tarea 267
+[2025-12-09 18:13:13] [WARN]   Proyecto 15 no mapeado, saltando tarea 259
+[2025-12-09 18:13:13] [WARN]   Proyecto 15 no mapeado, saltando tarea 254
+[2025-12-09 18:13:13] [WARN]   Proyecto 14 no mapeado, saltando tarea 160
+[2025-12-09 18:13:13] [WARN]   Proyecto 13 no mapeado, saltando tarea 143
+[2025-12-09 18:13:13] [WARN]   Proyecto 13 no mapeado, saltando tarea 130
+[2025-12-09 18:13:13] [WARN]   Proyecto 12 no mapeado, saltando tarea 126
+[2025-12-09 18:13:13] [WARN]   Proyecto 12 no mapeado, saltando tarea 123
+[2025-12-09 18:13:13] [WARN]   Proyecto 12 no mapeado, saltando tarea 121
+[2025-12-09 18:13:13] [WARN]   Proyecto 12 no mapeado, saltando tarea 120
+[2025-12-09 18:13:13] [WARN]   Proyecto 6 no mapeado, saltando tarea 62
+[2025-12-09 18:13:13] [WARN]   Proyecto 5 no mapeado, saltando tarea 53
+[2025-12-09 18:13:13] [WARN]   Proyecto 3 no mapeado, saltando tarea 28
+[2025-12-09 18:13:13] [WARN]   Proyecto 17 no mapeado, saltando tarea 284
+[2025-12-09 18:13:13] [WARN]   Proyecto 6 no mapeado, saltando tarea 63
+[2025-12-09 18:13:13] [WARN]   Proyecto 11 no mapeado, saltando tarea 92
+[2025-12-09 18:13:13] [WARN]   Proyecto 14 no mapeado, saltando tarea 162
+[2025-12-09 18:13:13] [WARN]   Proyecto 18 no mapeado, saltando tarea 318
+[2025-12-09 18:13:13] [WARN]   Proyecto 18 no mapeado, saltando tarea 315
+[2025-12-09 18:13:13] [WARN]   Proyecto 16 no mapeado, saltando tarea 277
+[2025-12-09 18:13:14] [INFO] Lote 2: 50 tareas
+[2025-12-09 18:13:14] [WARN]   Proyecto 15 no mapeado, saltando tarea 255
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 141
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 122
+[2025-12-09 18:13:14] [WARN]   Proyecto 3 no mapeado, saltando tarea 44
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 321
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 317
+[2025-12-09 18:13:14] [WARN]   Proyecto 17 no mapeado, saltando tarea 286
+[2025-12-09 18:13:14] [WARN]   Proyecto 17 no mapeado, saltando tarea 285
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 272
+[2025-12-09 18:13:14] [WARN]   Proyecto 15 no mapeado, saltando tarea 256
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 133
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 127
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 111
+[2025-12-09 18:13:14] [WARN]   Proyecto 11 no mapeado, saltando tarea 91
+[2025-12-09 18:13:14] [WARN]   Proyecto 6 no mapeado, saltando tarea 80
+[2025-12-09 18:13:14] [WARN]   Proyecto 3 no mapeado, saltando tarea 31
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 319
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 312
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 271
+[2025-12-09 18:13:14] [WARN]   Proyecto 15 no mapeado, saltando tarea 257
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 142
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 124
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 116
+[2025-12-09 18:13:14] [WARN]   Proyecto 11 no mapeado, saltando tarea 99
+[2025-12-09 18:13:14] [WARN]   Proyecto 6 no mapeado, saltando tarea 68
+[2025-12-09 18:13:14] [WARN]   Proyecto 3 no mapeado, saltando tarea 43
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 309
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 269
+[2025-12-09 18:13:14] [WARN]   Proyecto 15 no mapeado, saltando tarea 258
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 140
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 119
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 114
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 308
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 306
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 270
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 137
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 117
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 324
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 310
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 276
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 132
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 110
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 314
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 311
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 266
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 134
+[2025-12-09 18:13:14] [WARN]   Proyecto 12 no mapeado, saltando tarea 115
+[2025-12-09 18:13:14] [WARN]   Proyecto 18 no mapeado, saltando tarea 313
+[2025-12-09 18:13:14] [WARN]   Proyecto 16 no mapeado, saltando tarea 268
+[2025-12-09 18:13:14] [WARN]   Proyecto 13 no mapeado, saltando tarea 131
+[2025-12-09 18:13:15] [INFO] Lote 3: 50 tareas
+[2025-12-09 18:13:15] [WARN]   Proyecto 12 no mapeado, saltando tarea 118
+[2025-12-09 18:13:15] [WARN]   Proyecto 18 no mapeado, saltando tarea 305
+[2025-12-09 18:13:15] [WARN]   Proyecto 16 no mapeado, saltando tarea 274
+[2025-12-09 18:13:15] [WARN]   Proyecto 13 no mapeado, saltando tarea 135
+[2025-12-09 18:13:15] [WARN]   Proyecto 12 no mapeado, saltando tarea 112
+[2025-12-09 18:13:15] [WARN]   Proyecto 3 no mapeado, saltando tarea 22
+[2025-12-09 18:13:15] [WARN]   Proyecto 3 no mapeado, saltando tarea 30
+[2025-12-09 18:13:15] [WARN]   Proyecto 5 no mapeado, saltando tarea 54
+[2025-12-09 18:13:15] [WARN]   Proyecto 17 no mapeado, saltando tarea 287
+[2025-12-09 18:13:15] [WARN]   Proyecto 6 no mapeado, saltando tarea 129
+[2025-12-09 18:13:15] [WARN]   Proyecto 13 no mapeado, saltando tarea 147
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 164
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 209
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 197
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 186
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 163
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 235
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 210
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 175
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 165
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 245
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 220
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 203
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 180
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 176
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 170
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 169
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 166
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 240
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 215
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 212
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 207
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 199
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 177
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 248
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 225
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 217
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 206
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 200
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 192
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 182
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 167
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 247
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 242
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 230
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 227
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 216
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 204
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 198
+[2025-12-09 18:13:15] [WARN]   Proyecto 14 no mapeado, saltando tarea 187
+[2025-12-09 18:13:16] [INFO] Lote 4: 50 tareas
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 183
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 178
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 174
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 173
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 246
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 244
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 243
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 236
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 228
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 213
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 211
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 208
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 188
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 172
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 241
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 239
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 231
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 226
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 224
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 221
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 205
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 195
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 189
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 181
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 171
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 168
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 238
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 218
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 214
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 237
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 234
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 233
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 223
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 202
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 201
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 196
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 184
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 179
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 250
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 222
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 219
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 190
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 185
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 232
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 229
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 194
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 251
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 193
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 191
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 252
+[2025-12-09 18:13:16] [INFO] Lote 5: 50 tareas
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 249
+[2025-12-09 18:13:16] [WARN]   Proyecto 14 no mapeado, saltando tarea 253
+[2025-12-09 18:13:16] [WARN]   Proyecto 17 no mapeado, saltando tarea 297
+[2025-12-09 18:13:16] [WARN]   Proyecto 17 no mapeado, saltando tarea 295
+[2025-12-09 18:13:16] [WARN]   Proyecto 16 no mapeado, saltando tarea 275
+[2025-12-09 18:13:16] [WARN]   Proyecto 15 no mapeado, saltando tarea 260
+[2025-12-09 18:13:16] [WARN]   Proyecto 13 no mapeado, saltando tarea 153
+[2025-12-09 18:13:16] [WARN]   Proyecto 13 no mapeado, saltando tarea 148
+[2025-12-09 18:13:16] [WARN]   Proyecto 13 no mapeado, saltando tarea 146
+[2025-12-09 18:13:16] [WARN]   Proyecto 13 no mapeado, saltando tarea 145
+[2025-12-09 18:13:16] [WARN]   Proyecto 13 no mapeado, saltando tarea 144
+[2025-12-09 18:13:16] [WARN]   Proyecto 13 no mapeado, saltando tarea 139
+[2025-12-09 18:13:16] [WARN]   Proyecto 12 no mapeado, saltando tarea 125
+[2025-12-09 18:13:16] [WARN]   Proyecto 12 no mapeado, saltando tarea 113
+[2025-12-09 18:13:16] [WARN]   Proyecto 12 no mapeado, saltando tarea 109
+[2025-12-09 18:13:16] [WARN]   Proyecto 11 no mapeado, saltando tarea 105
+[2025-12-09 18:13:16] [WARN]   Proyecto 11 no mapeado, saltando tarea 100
+[2025-12-09 18:13:16] [WARN]   Proyecto 11 no mapeado, saltando tarea 96
+[2025-12-09 18:13:16] [WARN]   Proyecto 11 no mapeado, saltando tarea 93
+[2025-12-09 18:13:16] [WARN]   Proyecto 11 no mapeado, saltando tarea 87
+[2025-12-09 18:13:16] [WARN]   Proyecto 6 no mapeado, saltando tarea 82
+[2025-12-09 18:13:16] [WARN]   Proyecto 10 no mapeado, saltando tarea 79
+[2025-12-09 18:13:16] [WARN]   Proyecto 6 no mapeado, saltando tarea 69
+[2025-12-09 18:13:16] [WARN]   Proyecto 5 no mapeado, saltando tarea 60
+[2025-12-09 18:13:16] [WARN]   Proyecto 5 no mapeado, saltando tarea 55
+[2025-12-09 18:13:16] [WARN]   Proyecto 3 no mapeado, saltando tarea 52
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 42
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 41
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 40
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 39
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 38
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 37
+[2025-12-09 18:13:17] [WARN]   Proyecto 4 no mapeado, saltando tarea 36
+[2025-12-09 18:13:17] [WARN]   Proyecto 3 no mapeado, saltando tarea 29
+[2025-12-09 18:13:17] [WARN]   Proyecto 3 no mapeado, saltando tarea 27
+[2025-12-09 18:13:17] [WARN]   Proyecto 2 no mapeado, saltando tarea 21
+[2025-12-09 18:13:17] [WARN]   Proyecto 1 no mapeado, saltando tarea 20
+[2025-12-09 18:13:17] [WARN]   Proyecto 1 no mapeado, saltando tarea 19
+[2025-12-09 18:13:20] [WARN]   Proyecto 17 no mapeado, saltando tarea 298
+[2025-12-09 18:13:20] [WARN]   Proyecto 17 no mapeado, saltando tarea 296
+[2025-12-09 18:13:20] [WARN]   Proyecto 17 no mapeado, saltando tarea 288
+[2025-12-09 18:13:21] [INFO] Lote 6: 50 tareas
+[2025-12-09 18:13:21] [WARN]   Proyecto 16 no mapeado, saltando tarea 265
+[2025-12-09 18:13:21] [WARN]   Proyecto 13 no mapeado, saltando tarea 149
+[2025-12-09 18:13:21] [WARN]   Proyecto 13 no mapeado, saltando tarea 138
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 101
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 97
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 94
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 88
+[2025-12-09 18:13:21] [WARN]   Proyecto 6 no mapeado, saltando tarea 83
+[2025-12-09 18:13:21] [WARN]   Proyecto 6 no mapeado, saltando tarea 71
+[2025-12-09 18:13:21] [WARN]   Proyecto 6 no mapeado, saltando tarea 70
+[2025-12-09 18:13:21] [WARN]   Proyecto 5 no mapeado, saltando tarea 56
+[2025-12-09 18:13:21] [WARN]   Proyecto 17 no mapeado, saltando tarea 299
+[2025-12-09 18:13:21] [WARN]   Proyecto 17 no mapeado, saltando tarea 289
+[2025-12-09 18:13:21] [WARN]   Proyecto 16 no mapeado, saltando tarea 273
+[2025-12-09 18:13:21] [WARN]   Proyecto 13 no mapeado, saltando tarea 150
+[2025-12-09 18:13:21] [WARN]   Proyecto 13 no mapeado, saltando tarea 136
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 108
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 102
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 98
+[2025-12-09 18:13:21] [WARN]   Proyecto 11 no mapeado, saltando tarea 95
+[2025-12-09 18:13:21] [WARN]   Proyecto 6 no mapeado, saltando tarea 77
+[2025-12-09 18:13:21] [WARN]   Proyecto 6 no mapeado, saltando tarea 76
+[2025-12-09 18:13:21] [WARN]   Proyecto 5 no mapeado, saltando tarea 57
+[2025-12-09 18:13:22] [WARN]   Proyecto 17 no mapeado, saltando tarea 300
+[2025-12-09 18:13:22] [WARN]   Proyecto 17 no mapeado, saltando tarea 290
+[2025-12-09 18:13:22] [WARN]   Proyecto 16 no mapeado, saltando tarea 264
+[2025-12-09 18:13:22] [WARN]   Proyecto 13 no mapeado, saltando tarea 151
+[2025-12-09 18:13:22] [WARN]   Proyecto 11 no mapeado, saltando tarea 107
+[2025-12-09 18:13:22] [WARN]   Proyecto 11 no mapeado, saltando tarea 103
+[2025-12-09 18:13:22] [WARN]   Proyecto 6 no mapeado, saltando tarea 78
+[2025-12-09 18:13:22] [WARN]   Proyecto 6 no mapeado, saltando tarea 73
+[2025-12-09 18:13:22] [WARN]   Proyecto 5 no mapeado, saltando tarea 58
+[2025-12-09 18:13:23] [WARN]   Proyecto 17 no mapeado, saltando tarea 301
+[2025-12-09 18:13:23] [WARN]   Proyecto 6 no mapeado, saltando tarea 154
+[2025-12-09 18:13:23] [WARN]   Proyecto 17 no mapeado, saltando tarea 291
+[2025-12-09 18:13:23] [WARN]   Proyecto 16 no mapeado, saltando tarea 263
+[2025-12-09 18:13:23] [WARN]   Proyecto 13 no mapeado, saltando tarea 152
+[2025-12-09 18:13:23] [WARN]   Proyecto 11 no mapeado, saltando tarea 104
+[2025-12-09 18:13:23] [WARN]   Proyecto 11 no mapeado, saltando tarea 89
+[2025-12-09 18:13:23] [WARN]   Proyecto 6 no mapeado, saltando tarea 72
+[2025-12-09 18:13:23] [WARN]   Proyecto 5 no mapeado, saltando tarea 59
+[2025-12-09 18:13:23] [WARN]   Proyecto 17 no mapeado, saltando tarea 292
+[2025-12-09 18:13:23] [WARN]   Proyecto 16 no mapeado, saltando tarea 262
+[2025-12-09 18:13:24] [INFO] Lote 7: 17 tareas
+[2025-12-09 18:13:24] [WARN]   Proyecto 11 no mapeado, saltando tarea 106
+[2025-12-09 18:13:24] [WARN]   Proyecto 6 no mapeado, saltando tarea 75
+[2025-12-09 18:13:24] [WARN]   Proyecto 17 no mapeado, saltando tarea 293
+[2025-12-09 18:13:24] [WARN]   Proyecto 16 no mapeado, saltando tarea 261
+[2025-12-09 18:13:24] [WARN]   Proyecto 11 no mapeado, saltando tarea 90
+[2025-12-09 18:13:24] [WARN]   Proyecto 6 no mapeado, saltando tarea 74
+[2025-12-09 18:13:25] [WARN]   Proyecto 17 no mapeado, saltando tarea 294
+[2025-12-09 18:13:25] [WARN]   Proyecto 6 no mapeado, saltando tarea 128
+[2025-12-09 18:13:28] [INFO] ✓ Tareas: 29 migradas, 288 errores
+[2025-12-09 18:13:28] [INFO] 
+======================================================================
+[2025-12-09 18:13:28] [INFO] MIGRACIÓN PENDIENTES COMPLETADA
+[2025-12-09 18:13:28] [INFO] ======================================================================
+[2025-12-09 18:13:28] [INFO] Duración: 0.4 minutos
+[2025-12-09 18:13:28] [INFO] Total migrado: 0
