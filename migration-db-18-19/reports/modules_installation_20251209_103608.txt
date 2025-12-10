@@ -1,0 +1,126 @@
+[2025-12-09 10:36:08] [INFO] Total módulos: 100
+[2025-12-09 10:36:08] [INFO] Instalando base...
+[2025-12-09 10:36:13] [INFO]   ✓ base
+[2025-12-09 10:36:13] [INFO] Instalando base_setup...
+[2025-12-09 10:36:18] [INFO]   ✓ base_setup
+[2025-12-09 10:36:18] [INFO] Instalando account...
+[2025-12-09 10:36:54] [ERROR]   ✗ account
+[2025-12-09 10:36:54] [INFO] Instalando crm...
+[2025-12-09 10:37:06] [INFO]   ✓ crm
+[2025-12-09 10:37:06] [INFO] Instalando helpdesk...
+[2025-12-09 10:37:15] [INFO]   ✓ helpdesk
+[2025-12-09 10:37:15] [INFO] Lote 1: account_accountant, account_accountant_batch_payment, account_accountant_check_printing, account_asset, account_auto_transfer
+[2025-12-09 10:37:22] [INFO]   ✓ account_accountant
+[2025-12-09 10:37:28] [INFO]   ✓ account_accountant_batch_payment
+[2025-12-09 10:37:35] [INFO]   ✓ account_accountant_check_printing
+[2025-12-09 10:37:43] [ERROR]   ✗ account_asset
+[2025-12-09 10:37:49] [INFO]   ✓ account_auto_transfer
+[2025-12-09 10:37:54] [INFO] Lote 2: account_avatax, account_avatax_sale, account_avatax_stock, account_bank_statement_extract, account_bank_statement_import
+[2025-12-09 10:38:02] [INFO]   ✓ account_avatax
+[2025-12-09 10:38:12] [INFO]   ✓ account_avatax_sale
+[2025-12-09 10:38:29] [INFO]   ✓ account_avatax_stock
+[2025-12-09 10:38:37] [ERROR]   ✗ account_bank_statement_extract
+[2025-12-09 10:38:43] [INFO]   ✓ account_bank_statement_import
+[2025-12-09 10:38:48] [INFO] Lote 3: account_bank_statement_import_camt, account_bank_statement_import_csv, account_bank_statement_import_ofx, account_base_import, account_batch_payment
+[2025-12-09 10:38:55] [INFO]   ✓ account_bank_statement_import_camt
+[2025-12-09 10:39:03] [INFO]   ✓ account_bank_statement_import_csv
+[2025-12-09 10:39:09] [INFO]   ✓ account_bank_statement_import_ofx
+[2025-12-09 10:39:17] [ERROR]   ✗ account_base_import
+[2025-12-09 10:39:24] [INFO]   ✓ account_batch_payment
+[2025-12-09 10:39:29] [INFO] Lote 4: account_check_printing, account_debit_note, account_disallowed_expenses, account_edi, account_edi_ubl_cii
+[2025-12-09 10:39:36] [INFO]   ✓ account_check_printing
+[2025-12-09 10:39:43] [INFO]   ✓ account_debit_note
+[2025-12-09 10:39:49] [INFO]   ✓ account_disallowed_expenses
+[2025-12-09 10:39:56] [INFO]   ✓ account_edi
+[2025-12-09 10:40:03] [INFO]   ✓ account_edi_ubl_cii
+[2025-12-09 10:40:08] [INFO] Lote 5: account_external_tax, account_extract, account_followup, account_invoice_extract, account_invoice_extract_purchase
+[2025-12-09 10:40:15] [INFO]   ✓ account_external_tax
+[2025-12-09 10:40:22] [INFO]   ✓ account_extract
+[2025-12-09 10:40:30] [ERROR]   ✗ account_followup
+[2025-12-09 10:40:37] [INFO]   ✓ account_invoice_extract
+[2025-12-09 10:40:47] [INFO]   ✓ account_invoice_extract_purchase
+[2025-12-09 10:40:52] [INFO] Lote 6: account_loans, account_online_synchronization, account_payment, account_reports, accountant
+[2025-12-09 10:40:55] [ERROR]   ✗ account_loans
+[2025-12-09 10:41:02] [ERROR]   ✗ account_online_synchronization
+[2025-12-09 10:41:09] [INFO]   ✓ account_payment
+[2025-12-09 10:41:17] [ERROR]   ✗ account_reports
+[2025-12-09 10:41:25] [ERROR]   ✗ accountant
+[2025-12-09 10:41:30] [INFO] Lote 7: analytic, analytic_enterprise, appointment, appointment_account_payment, appointment_crm
+[2025-12-09 10:41:36] [INFO]   ✓ analytic
+[2025-12-09 10:41:43] [INFO]   ✓ analytic_enterprise
+[2025-12-09 10:41:52] [INFO]   ✓ appointment
+[2025-12-09 10:41:59] [INFO]   ✓ appointment_account_payment
+[2025-12-09 10:42:06] [ERROR]   ✗ appointment_crm
+[2025-12-09 10:42:11] [INFO] Lote 8: appointment_google_calendar, appointment_hr, appointment_sms, attachment_indexation, auth_signup
+[2025-12-09 10:42:13] [ERROR]   ✗ appointment_google_calendar
+[2025-12-09 10:42:18] [ERROR]   ✗ appointment_hr
+[2025-12-09 10:42:34] [INFO]   ✓ appointment_sms
+[2025-12-09 10:42:43] [INFO]   ✓ attachment_indexation
+[2025-12-09 10:42:50] [INFO]   ✓ auth_signup
+[2025-12-09 10:42:55] [INFO] Lote 9: auth_totp, auth_totp_mail, auth_totp_portal, barcodes, barcodes_gs1_nomenclature
+[2025-12-09 10:43:01] [INFO]   ✓ auth_totp
+[2025-12-09 10:43:08] [ERROR]   ✗ auth_totp_mail
+[2025-12-09 10:43:16] [INFO]   ✓ auth_totp_portal
+[2025-12-09 10:43:23] [INFO]   ✓ barcodes
+[2025-12-09 10:43:30] [INFO]   ✓ barcodes_gs1_nomenclature
+[2025-12-09 10:43:35] [INFO] Lote 10: base_address_extended, base_automation, base_import, base_import_module, base_install_request
+[2025-12-09 10:43:42] [INFO]   ✓ base_address_extended
+[2025-12-09 10:43:50] [INFO]   ✓ base_automation
+[2025-12-09 10:43:57] [INFO]   ✓ base_import
+[2025-12-09 10:44:04] [INFO]   ✓ base_import_module
+[2025-12-09 10:44:11] [INFO]   ✓ base_install_request
+[2025-12-09 10:44:16] [INFO] Lote 11: base_vat, bus, calendar, calendar_sms, certificate
+[2025-12-09 10:44:24] [INFO]   ✓ base_vat
+[2025-12-09 10:44:31] [INFO]   ✓ bus
+[2025-12-09 10:44:38] [INFO]   ✓ calendar
+[2025-12-09 10:44:45] [INFO]   ✓ calendar_sms
+[2025-12-09 10:44:53] [INFO]   ✓ certificate
+[2025-12-09 10:44:58] [INFO] Lote 12: contacts, contacts_enterprise, crm_enterprise, crm_helpdesk, crm_iap_enrich
+[2025-12-09 10:45:05] [INFO]   ✓ contacts
+[2025-12-09 10:45:12] [INFO]   ✓ contacts_enterprise
+[2025-12-09 10:45:19] [INFO]   ✓ crm_enterprise
+[2025-12-09 10:45:26] [INFO]   ✓ crm_helpdesk
+[2025-12-09 10:45:33] [INFO]   ✓ crm_iap_enrich
+[2025-12-09 10:45:38] [INFO] Lote 13: crm_iap_mine, crm_livechat, crm_sms, currency_rate_live, delivery
+[2025-12-09 10:45:45] [INFO]   ✓ crm_iap_mine
+[2025-12-09 10:45:56] [INFO]   ✓ crm_livechat
+[2025-12-09 10:46:03] [INFO]   ✓ crm_sms
+[2025-12-09 10:46:10] [INFO]   ✓ currency_rate_live
+[2025-12-09 10:46:21] [INFO]   ✓ delivery
+[2025-12-09 10:46:26] [INFO] Lote 14: digest, digest_enterprise, documents, documents_account, documents_hr
+[2025-12-09 10:46:34] [INFO]   ✓ digest
+[2025-12-09 10:46:41] [INFO]   ✓ digest_enterprise
+[2025-12-09 10:46:53] [INFO]   ✓ documents
+[2025-12-09 10:47:01] [ERROR]   ✗ documents_account
+[2025-12-09 10:47:18] [INFO]   ✓ documents_hr
+[2025-12-09 10:47:23] [INFO] Lote 15: documents_product, documents_project, documents_project_sale, documents_project_sign, documents_sign
+[2025-12-09 10:47:31] [INFO]   ✓ documents_product
+[2025-12-09 10:47:39] [INFO]   ✓ documents_project
+[2025-12-09 10:47:49] [INFO]   ✓ documents_project_sale
+[2025-12-09 10:48:00] [INFO]   ✓ documents_project_sign
+[2025-12-09 10:48:08] [ERROR]   ✗ documents_sign
+[2025-12-09 10:48:13] [INFO] Lote 16: documents_spreadsheet, event, event_crm, event_crm_sale, event_enterprise
+[2025-12-09 10:48:20] [INFO]   ✓ documents_spreadsheet
+[2025-12-09 10:48:32] [INFO]   ✓ event
+[2025-12-09 10:48:40] [ERROR]   ✗ event_crm
+[2025-12-09 10:48:48] [INFO]   ✓ event_crm_sale
+[2025-12-09 10:48:55] [INFO]   ✓ event_enterprise
+[2025-12-09 10:49:00] [INFO] Lote 17: event_product, event_sale, event_sms, gamification, gamification_sale_crm
+[2025-12-09 10:49:08] [INFO]   ✓ event_product
+[2025-12-09 10:49:16] [INFO]   ✓ event_sale
+[2025-12-09 10:49:23] [INFO]   ✓ event_sms
+[2025-12-09 10:49:33] [INFO]   ✓ gamification
+[2025-12-09 10:49:41] [INFO]   ✓ gamification_sale_crm
+[2025-12-09 10:49:46] [INFO] Lote 18: google_account, google_calendar, google_gmail, google_recaptcha, helpdesk_sale
+[2025-12-09 10:49:54] [INFO]   ✓ google_account
+[2025-12-09 10:50:03] [INFO]   ✓ google_calendar
+[2025-12-09 10:50:11] [ERROR]   ✗ google_gmail
+[2025-12-09 10:50:18] [INFO]   ✓ google_recaptcha
+[2025-12-09 10:50:26] [INFO]   ✓ helpdesk_sale
+[2025-12-09 10:50:31] [INFO] Lote 19: helpdesk_sale_timesheet, helpdesk_sms, helpdesk_timesheet, hr, hr_calendar
+[2025-12-09 10:50:48] [INFO]   ✓ helpdesk_sale_timesheet
+[2025-12-09 10:50:56] [INFO]   ✓ helpdesk_sms
+[2025-12-09 10:51:04] [INFO]   ✓ helpdesk_timesheet
+[2025-12-09 10:51:12] [ERROR]   ✗ hr
+[2025-12-09 10:51:21] [INFO]   ✓ hr_calendar
+[2025-12-09 10:51:26] [INFO] Instalación completada

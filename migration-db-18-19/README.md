@@ -1,11 +1,13 @@
-# Carpeta de Migración: OmniERP (Odoo 18) → Odoo 19
+# Carpeta de Migración de Base de Datos: OmniERP (Odoo 18) → Odoo 19
 
-Esta carpeta contiene todos los archivos relacionados con la migración de datos desde OmniERP (Odoo 18) hacia Odoo 19.
+Esta carpeta contiene todos los archivos relacionados con la migración de **datos de base de datos** desde OmniERP (Odoo 18) hacia Odoo 19.
+
+**Nota:** Esta carpeta es para la migración de datos, no para la migración del módulo MCP (que está en `mcp_server/`).
 
 ## Estructura
 
 ```
-migration/
+migration-db-18-19/
 ├── scripts/          # Scripts de migración y análisis
 ├── reports/          # Reportes y logs de migración
 └── docs/             # Documentación del proceso
@@ -56,29 +58,29 @@ Contiene todos los logs, reportes y estadísticas generados durante las ejecucio
 
 1. **Revisar el plan mejorado:**
    ```bash
-   cat migration/scripts/PLAN_MIGRACION_MEJORADO.md
+   cat migration-db-18-19/scripts/PLAN_MIGRACION_MEJORADO.md
    ```
 
 2. **Analizar origen y destino:**
    ```bash
-   python3 migration/scripts/analyze_migration_omnierp_to_odoo19.py
+   python3 migration-db-18-19/scripts/analyze_migration_omnierp_to_odoo19.py
    ```
 
 3. **Ejecutar migración por fases:**
    ```bash
-   python3 migration/scripts/complete_migration.py
+   python3 migration-db-18-19/scripts/complete_migration.py
    ```
 
 ### Para corregir datos migrados:
 
 ```bash
-python3 migration/scripts/fix_sale_orders.py
+python3 migration-db-18-19/scripts/fix_sale_orders.py
 ```
 
 ### Para generar reportes:
 
 ```bash
-python3 migration/scripts/generate_final_migration_report.py
+python3 migration-db-18-19/scripts/generate_final_migration_report.py
 ```
 
 ## Notas Importantes
@@ -92,7 +94,7 @@ python3 migration/scripts/generate_final_migration_report.py
   - Acceso MCP configurado
   - Credenciales de acceso
 
-- Los reportes se generan en `migration/reports/`
+- Los reportes se generan en `migration-db-18-19/reports/`
 
 ## Referencias
 
